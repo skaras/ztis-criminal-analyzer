@@ -35,6 +35,8 @@ class KRS(object):
 
 
 
+    # Parsuje stronę wyników wyszukiwania KRS'u. Dostaje surowy tekst HTML,
+    # zwraca linki do podstron, które są rezultatem wyszukania.
     def _parseSearchResults(self, text):
         document = etree.fromstring(text, parser = self.parser)
 
@@ -48,6 +50,8 @@ class KRS(object):
 
 
 
+    # Szukanie stron z informacjami o podmiotach wg NIP'u. Zwraca listę linków
+    # z wynikami wyszukania.
     def searchTaxID(self, nip):
         r = self.session.get('http://www.krs-online.com.pl/',
             params = {'p': 6, 'look': nip})
@@ -57,6 +61,11 @@ class KRS(object):
 
 
 
+    # Parsuje jedną tabelę ze strony podmiotu. Dostaje obiekt '_Element'
+    # odpowiadający tabeli, zwraca słownik znalezionych danych (jeśli tabela
+    # miała dwie kolumny). Tu znajdują się też rozpoznania, czy tabela w ogóle
+    # zawiera interesujące dane.
+    # TODO usuwanie niealfanumerycznych znaków z kluczy??
     def _parseTable(self, table_elem):
         data = {}
 
@@ -75,6 +84,8 @@ class KRS(object):
         return data
 
 
+    # Parsuje stronę podmiotu. Dostaje surowy tekst HTML, zwraca słownik
+    # znalezionych w tabelach danych.
     def _parseEntitySite(self, text):
         document = etree.fromstring(text, parser = self.parser)
 
@@ -88,12 +99,34 @@ class KRS(object):
 
 
 
+    # Wyciąga informacje ze strony jednego podmiotu KRS. Dostaje adres strony,
+    # zwraca słownik danych.
     def extractEntityData(self, address):
         r = self.session.get(address)
         r.raise_for_status()
 
         #document = etree.fromstring(r.text, parser = self.parser)
         return self._parseEntitySite(r.text)
+
+
+
+# Przykład użycia klasy KRS.
+def example():
+    krs = KRS()
+
+    # Szukanie po NIP'ie.
+    links = krs.searchTaxID(348204304)
+
+    # Coś dziwnego? Wyszukiwanie dla NIP'u zwróciło więcej niż jeden wynik?
+    if len(links) != 1:
+        pass
+
+    # Parsowanie danych ze zwróconej strony.
+    data = krs.extractEntityData(links[0])
+
+    # Zrób sobie coś z danymi.
+    for k, v in data.iteritems():
+        print('{} -> {}'.format(k,v))
 
 
 
@@ -104,13 +137,8 @@ def main():
     #with codecs.open('site', 'r', 'utf8') as src:
     #    return krs._parseSearchResults(srd.read())
 
-    #addrs = krs.searchTaxID(7542527629)
-    #print("Addressess: {}".format(addrs))
-    #
-    #tabs = krs.extractEntityData(addrs[0])
-    #print("Tabs: {}".format(tabs))
 
-
+    # Testowe wyciąganie danych ze strony w pliku.
     with codecs.open('site', 'r', 'utf8') as src:
         tabs = krs._parseEntitySite(src.read())
 
