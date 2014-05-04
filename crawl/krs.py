@@ -1,11 +1,13 @@
 #!/usr/bin/python2
 # -*- coding: utf8 -*-
+# coding=UTF8
 
-
-import requests, codecs
+import requests, codecs, sys
 
 from lxml import etree
 
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 
 class KRS(object):
@@ -56,7 +58,7 @@ class KRS(object):
         r = self.session.get('http://www.krs-online.com.pl/',
             params = {'p': 6, 'look': nip})
         r.raise_for_status()
-
+        
         return self._parseSearchResults(r.text)
 
 
@@ -115,11 +117,11 @@ def example():
     krs = KRS()
 
     # Szukanie po NIP'ie.
-    links = krs.searchTaxID(348204304)
-
+    links = krs.searchTaxID(7542527629)
+    
     # Coś dziwnego? Wyszukiwanie dla NIP'u zwróciło więcej niż jeden wynik?
     if len(links) != 1:
-        pass
+        return
 
     # Parsowanie danych ze zwróconej strony.
     data = krs.extractEntityData(links[0])
@@ -131,6 +133,11 @@ def example():
 
 
 def main():
+    
+    example()
+    
+    return
+    
     krs = KRS()
 
     # Testowe parsowanie tekstu strony z pliku.
@@ -139,7 +146,7 @@ def main():
 
 
     # Testowe wyciąganie danych ze strony w pliku.
-    with codecs.open('site', 'r', 'utf8') as src:
+    with codecs.open('krs_entity_site', 'r', 'utf8') as src:
         tabs = krs._parseEntitySite(src.read())
 
         for k,v in tabs.iteritems():
