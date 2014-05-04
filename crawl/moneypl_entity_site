@@ -1,0 +1,2212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+<meta http-equiv="Content-Language" content="pl" />
+<title>Akcje Vistula SA (VST) notowania &gt; Money.pl</title>
+<meta name="description" content="Vistula Group SA (VST) notowania i rekomendacje. Vistula Group S.A. jest spółką notowaną na Giełdzie Papierów Wartościowych w Warszawie S.A., która specjalizuje..." />
+<meta name="keywords" content="Vistula SA,(VST),notowania, profil spółki" />
+<meta name="robots" content="index,follow" />
+<!-- (c) 2000-2005 Gemius SA ver pro 11.1 -->
+<script language="javascript" type="text/javascript">
+<!--
+var gemius_identifier = new String('.KGbGbAcrMkhRABWRrGxTadyfdnIRqNpehtPZHlJTPj.A7/id=bao7WwuunKwhh4gt2AYemnXoTDkNwbiQn343CovNbPP.i7');
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="http://static1.money.pl/j/gemius_arbo.js"></script>
+
+<link rel="search" type="application/opensearchdescription+xml" title="Money.pl" href="http://www.money.pl/d/search.xml" />
+<link rel="shortcut icon" href="//www.money.pl/d/favicon.ico" type="image/x-icon" />
+
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="http://static1.money.pl/s/gielda2.css?81d5d" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://static1.money.pl/s/sf.css?8be45" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://static1.money.pl/s/static.css?697cd" />
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" media="screen" href="http://static1.money.pl/s/gielda_ie.css?365f8" /><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen" href="http://static1.money.pl/s/mpl_header.css?68373" />
+<link rel="stylesheet" type="text/css" media="print" href="http://static1.money.pl/s/tabele_print.css?9930f" />
+
+<script type="text/javascript" src="http://static1.money.pl/j/jquery.js?v1"></script>
+<script type='text/javascript' src="http://static1.money.pl/j/jquery.ui.js?v1"></script>
+<script type='text/javascript' src="http://static1.money.pl/j/manager.js"></script>
+<script type="text/javascript" src="http://static1.money.pl/j/ufo.js?v10"></script>
+<script type="text/javascript" src="http://static1.money.pl/j/printprevieww.js"></script>
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js">{lang: 'pl'}</script>
+        <script type="text/javascript">
+        sas_tmstp=Math.round(Math.random()*10000000000);sas_masterflag=1;
+        function SmartAdServer(sas_pageid,sas_formatid,sas_target) {
+            if (sas_masterflag==1) {sas_masterflag=0;sas_master='M';} else {sas_master='S';};
+            document.write('<scr'+'ipt src="http://diff.smartadserver.com/call/pubj/' + sas_pageid + '/' + sas_formatid + '/' + sas_master + '/' + sas_tmstp + '/' + escape(sas_target) + '?"></scr'+'ipt>');
+        }
+        </script>
+<script type="text/javascript">
+var crtg_nid="1909";
+var crtg_cookiename="cri_ban";
+var crtg_varname="crtg_content";
+function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);}}return'';}
+var crtg_content = crtg_getCookie(crtg_cookiename);var crtg_rnd=Math.floor(Math.random()*99999999999);
+var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);crtg_url+='&cookieName='+escape(crtg_cookiename);crtg_url+='&rnd='+crtg_rnd;crtg_url+='&varName=' + escape(crtg_varname);
+var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+if(document.getElementsByTagName("head").length>0)document.getElementsByTagName("head")[0].appendChild(crtg_script);else if(document.getElementsByTagName("body").length>0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+function setSasTarget(sas_target) {
+    if (typeof(sas_target)=='undefined') {
+        sas_target='';
+    }
+
+    if (crtg_content) {
+        function inArray(needle, haystack) { var length = haystack.length; for(var i = 0; i < length; i++) { if(haystack[i] == needle) return true;} return false; }
+        var allowed_keywords = ['crbanmo120=1','crbanmo300=1'];
+        var cri_keywords = crtg_content.split(";");
+        var ban_cri_keywords = [];
+        for (var i=0;i<cri_keywords.length;i++) {
+            if (inArray(cri_keywords[i],allowed_keywords)) {
+                ban_cri_keywords.push(cri_keywords[i]);
+            }
+        }
+        ban_cri_keywords = ban_cri_keywords.join(';');
+
+        if (sas_target!='') {
+            sas_target += ";crtg_content=" + ban_cri_keywords;
+        } else {
+            sas_target = "crtg_content=" + ban_cri_keywords;
+        }
+    }
+
+    return sas_target;
+}
+</script>
+<!-- gemius audience : bao7WwuunKwhh4gt2AYemnXoTDkNwbiQn343CovNbPP.i7 -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(
+['_setAllowAnchor', 'true'],
+['_setAccount', 'UA-40724203-1'],
+['_setDomainName', 'www.money.pl'],
+['_trackPageview'],
+['_trackPageLoadTime'],
+['b._setAllowAnchor', 'true'],
+['b._setAccount', 'UA-19370495-1'],
+['b._setDomainName', '.money.pl'],
+['b._trackPageview']
+);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body>
+<div>
+<div id="mpl_header2">
+
+			<div class="inside">
+				<div class="mpl_logo">
+			<div class="inside" itemscope itemtype="http://schema.org/Organization">	
+				<a href="http://www.money.pl" title="Money.pl" class="logo" itemprop="url">
+					<img src="http://static1.money.pl/i/header/logo.png" alt="Money.pl: Biznes, Finanse, Giełda" itemprop="logo" />
+				</a>
+				
+									
+				<div class="szukaj">
+					<form class="szukaj" action="http://www.money.pl/wyszukiwarka/" method="get">
+						<p>
+							<input type="text" name="q" style="width:149px" placeholder="wyszukaj informacje" value="" />
+							<input type="submit" name="search" class="but" value="&nbsp;"/>
+						</p> 
+					</form>					
+				</div>
+				
+				<div class="mpl_topbox">
+					<script type="text/javascript" src="http://static1.money.pl/j/links_map.js?v8"></script>
+					<div class="grupa_mpl">
+													<a href="http://www.iwoman.pl/" title="iWoman" target="_blank">iWoman</a>
+							<a href="http://menstream.pl/" title="MenStream" target="_blank">MenStream</a>
+							<a href="http://platine.pl/" title="Platine" target="_blank">Platine</a>
+							<a href="http://marketmoney.pl/" title="Market Money" target="_blank">Market Money</a>
+							<a href="http://mymoney.pl/" title="myMoney" target="_blank">myMoney</a>
+							<a href="http://www.money2money.com.pl/" title="Money2Money" target="_blank">Money2Money</a>
+							<a href="http://www.bblog.pl/" title="bblog" target="_blank">BBlog</a>
+							<a href="http://interaktywnie.com/" title="Interaktywnie" target="_blank">Interaktywnie</a>
+							<a href="http://www.e-prawnik.pl/" title="e-Prawnik" target="_blank">e-Prawnik</a>
+							<a href="http://www.favore.pl/" title="Favore" target="_blank">Favore</a>				
+							<a href="http://www.money.pl/egazety/" title="E-gazety" style="padding:1px 4px;margin-top:-2px;border:1px solid #3f65a5;border-radius:2px;zdisplay:inline-block;">E-gazety</a>
+											</div>
+
+												<div class="subskrypcja" style="border:1px solid #3f65a5;padding:1px 5px">
+								<a href="https://konto.money.pl/rejestruj.html">Załóż pocztę</a>
+							</div>
+					
+							<div id="mymoney_log2">
+																	<a class="mymoney_log_ico" href="https://konto.money.pl/">Zaloguj się</a>
+															</div>
+
+					
+					
+											<script type="text/javascript">
+							function set_box_cookies() {
+								try {
+									jQuery.cookies.set('box_cookies', '1', {path: '/', domain: '.money.pl', expiresAt: new Date(2015, 1, 1)});
+								} catch (err) {}
+								return false;
+							}
+						</script>
+						<div class="subskrypcja" style="position:absolute;right:0;width:auto;right:-152px;float:none;top:3px">
+							<a class="mymoney_log_ico mt10" onmousedown="set_box_cookies();" href="http://www.money.pl/inne/polityka-prywatnosci/" style="background:none;color:#889cc2;">Polityka prywatności</a>
+							<img width="12" height="12" onclick="set_box_cookies();jQuery(this).parent().remove();" src="http://static1.money.pl/i/header/exit.png" alt="zamknij" style="vertical-align:middle;margin-top:-3px;cursor: pointer;" />
+						</div>
+					
+				</div><!-- end mpl_topbox -->		
+
+											<style type="text/css">
+				#headerpit2013 {float:left;width:230px;margin:11px 0 0 400px;}
+				#startzmoneybaner {display:none};
+			</style>
+			<div id="headerpit2013">
+				<!-- 2992544_greenpeace_pit_222x43_30.04.2014 -->
+				        <div id="smart_22189_425151_11443">
+        <script type="text/javascript">
+//<![CDATA[
+      document.write('<scr'+'ipt src="http://diff.smartadserver.com/call/pubj/22189/425151/11443/M/'+(new Date()).getTime()+'?[countgo]" language="javascript"></scr'+'ipt>');
+//]]>
+</script>
+<noscript>
+<a href="http://diff.smartadserver.com/call/pubjumpi/22189/425151/11443/M/20140502002855/?" target="_blank"><img src="http://diff.smartadserver.com/call/pubi/22189/425151/11443/M/20140502002855/?" border="0" alt="" /></a>
+</noscript>
+</div>
+			</div>
+						<script type="text/javascript" src="http://static1.money.pl/j/jquery.fancybox.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function() { 
+						jQuery('.fancybox').click(function() { _gaq.push(['b._trackEvent', 'App_Start', 'Naglowek', 'Firefox']); });
+						jQuery('.fancybox').fancybox(); 
+					});
+				</script>
+				<link rel="stylesheet" type="text/css" href="http://static1.money.pl/s/jquery.fancybox.css" media="screen" />
+				<div id="startzmoney-ff" class="startzmoney" style="width:500px;display: none;">
+					<div class="fancybox-title">Ustaw Money.pl jako stronę startową!</div>
+					<div class="modalwindow-content">
+						<div class="startzmoney-krok">
+							<div class="fl"><span class="nr">1</span></div>
+							<div class="txt fl">Złap poniższą ikonę z domkiem i przeciągnij ją w miejsce takiej samej ikony, którą widzisz na pasku narzędzi swojej przeglądarki (z prawej strony). </div>
+							<div style="clear:both;"></div>
+						</div>
+						<div class="ff_icon">
+							<a href="http://www.money.pl/#utm_source=(direct)&utm_medium=(none)&utm_campaign=strona-startowa" style="display:inline-block;background:url(http://static1.money.pl/i/startzmoney_ff_img3.jpg) 0 0 no-repeat;width:30px;height:31px;margin:0;padding:0;">&nbsp;</a>
+						</div>
+						<div class="startzmoney-krok">
+							<div class="fl"><span class="nr">2</span></div>
+							<div class="txt fl">Potwierdź wybór klikając <strong>TAK</strong>.</div>
+							<div style="clear:both;"></div>
+						</div>
+						<img src="http://static1.money.pl/i/startzmoney_ff_img2.jpg" border="0" />
+						<div class="startzmoney-krok">
+							<div class="fl"><span class="nr">3</span></div>
+							<div class="txt fl">Ustawiłeś <strong>Money.pl</strong> jako stronę startową!</div>
+							<div style="clear:both;"></div>
+						</div>
+					</div>
+				</div>	
+				<div class="startzmoney" id="startzmoneybaner">
+					<a href="#startzmoney-ff" class="fancybox"><img src="http://static1.money.pl/i/header/mnyheader_start.png" alt="Zaczynaj dzień z Money.pl" width="222" height="43" border="0" /></a>
+				</div>
+					<script type="text/javascript">
+			if(jQuery('#headerpit2013').height() < 10) {
+				jQuery('#headerpit2013').hide();
+				jQuery('#startzmoneybaner').show();
+			}
+		</script>
+						
+			</div><!-- end inside -->
+		</div><!-- end mpl logo -->
+
+					<div class="naskrot">
+				<a href="#">Na skróty</a>
+				<div  class="toolbox bar1">
+      <div class="pwn">
+        <ul>
+          <li class="bld">Finanse:</li>
+          <li><a href="http://www.money.pl/kalkulatory/">Kalkulatory</a></li>
+
+          <li><a href="http://www.money.pl/pieniadze/nbp/srednie/">Kursy walut</a></li>
+          <li><a href="http://www.money.pl/banki/elixir/">Sesje Elixir</a></li>
+          <li><a href="http://www.money.pl/gospodarka/inflacjabezrobocie/">Inflacja i bezrobocie</a></li>
+          <li><a href="http://www.money.pl/podatki/informator/odsetki/">Odsetki</a></li>
+          <li><a href="http://wibor.money.pl/">WIBOR</a></li>
+          <li><a href="http://www.money.pl/gielda/gpw/akcje/">Notowania GPW</a></li>
+
+          <li><a href="http://msp.money.pl/kalkulatory_i_wskazniki/kalkulatory/diety/">Diety</a></li>
+          <li><a href="http://prawo.money.pl/pit/">PIT 2013</a></li>
+        </ul>
+        <ul>
+          <li class="bld">Adresy:</li>
+          <li><a href="http://msp.money.pl/znajdz_adres/oddzialy_zus/">Oddziały ZUS</a></li>
+          <li><a href="http://msp.money.pl/znajdz_adres/krus/">Oddziały KRUS</a></li>
+          <li><a href="http://msp.money.pl/znajdz_adres/urzedy_skarbowe/">Urzędy Skarbowe</a></li>
+
+          <li><a href="http://msp.money.pl/baza-firm/">Katalog Firm</a></li>
+          <li><a href="http://msp.money.pl/znajdz_adres/doradcy-podatkowi/">Doradcy podatkowi</a></li>
+          <li><a href="http://prawo.money.pl/bazy-teleadresowe/prawnicy/">Prawnicy</a></li>
+          <li><a href="http://msp.money.pl/znajdz_adres/sady/">Sądy</a></li>
+        </ul>
+        <ul>
+          <li class="bld">Firma i prawo:</li>
+
+          <li><a href="http://prawo.money.pl/porady-prawne/porady/">Porady prawne</a></li>
+          <li><a href="http://msp.money.pl/kalkulatory_i_wskazniki/wskazniki/ubezpieczenia/">Składki ZUS</a></li>
+          <li><a href="http://prawo.money.pl/akty-prawne/ujednolicone-akty-prawne/">Akty prawne</a></li>
+          <li><a href="http://msp.money.pl/wzory-dokumentow/">Wzory umów</a></li>
+          <li><a href="http://msp.money.pl/zakladam_firme/pkd/">PKD</a></li>
+          <li><a href="http://prawo.money.pl/porady-prawne/zadaj-pytanie/">Zapytaj prawnika</a></li>
+
+          <li><a href="http://www.money.pl/eurobank/">Eurobank</a></li>
+        </ul>
+        <ul>
+          <li class="bld">Ogłoszenia i Wiadomości:</li>
+          <li><a href="http://autogielda.money.pl/">Autogiełda </a></li>
+          
+          <li><a href="http://edukacja.money.pl">Szkolenia</a></li>
+			<li><a href="http://www.money.pl/wyszukiwarka/archiwum/">Archiwum wyszukiwań</a></li>
+          
+          <li><a href="http://msp.money.pl/przetargi/">Przetargi</a></li>
+					<li><a href="http://kuponyrabatowe.money.pl/">Kupony rabatowe</a></li>
+        </ul>
+        <ul>
+          <li class="bld">Produkty finansowe:</li>
+          <li><a href="http://direct.money.pl/kredytymieszkaniowe/">Kredyty hipoteczne</a></li>
+
+          <li><a href="http://www.direct.money.pl/kontaosobiste/">Konta bankowe</a></li>
+          <li><a href="http://direct.money.pl/kredytygotowkowe/">Kredyty gotówkowe</a></li>
+          <li><a href="http://direct.money.pl/lokaty/">Lokaty</a></li>
+          <li><a href="http://direct.money.pl/breleasing/">Leasing</a></li>
+          <li><a href="http://direct.money.pl/kontafirmowe/">Firmowe konta</a></li>
+        </ul>
+
+        <div class="info_bar">
+          <a class="l1" href="javascript:window.open('http://direct.money.pl/o/_livechat/popup3.php','popup','status=no,scrollbars=no,width=325,height=430,top=50,left=50');void(0)">Rozpocznij rozmowę z konsultantem</a>
+          <a class="l2" href="javascript:window.open('http://direct.money.pl/o/_livechat/popup3.php','popup','status=no,scrollbars=no,width=325,height=430,top=50,left=50');void(0)">Wyślij swoje pytanie</a>
+        </div>
+      </div>
+    </div>
+<script type="text/javascript">
+	jQuery('#mpl_header2 div.toolbox').hide('fast');
+    jQuery('#mpl_header2 div.naskrot').click(function(){
+        
+        jQuery('#mpl_header2 div.toolbox').toggle('slow');
+    });
+    jQuery('#mpl_header2 div.toolbox').mouseleave(function(){
+        jQuery(this).hide('slow');
+    });
+</script>    			</div>
+			</div>
+
+		<div id="dzialy">
+    <div class="inside">
+        <div class="facebook_top">
+            <iframe scrolling="no" frameborder="0" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fportal.Moneypl&amp;layout=button_count&amp;show_faces=true&amp;width=400&amp;action=like&amp;font&amp;colorscheme=light&amp;height=21&amp;css=http://static1.money.pl/s/fb_like.css" style="border:none; overflow:hidden; width:135px; height:21px;" allowtransparency="true"></iframe>
+        </div>
+    <ul id="mny-sites">
+    	        	<li class="sel"><a id="sf-mny" href="http://www.money.pl/" title="Serwis finansowy">Serwis finansowy</a></li>
+                	<li><a id="direct-mny" href="http://direct.money.pl/" title="Doradztwo finansowe">Doradztwo finansowe</a></li>
+                	<li><a id="msp-mny" href="http://msp.money.pl/" title="Firma">Firma</a></li>
+                	<li><a id="prawo-mny" href="http://prawo.money.pl/" title="Prawo">Prawo</a></li>
+                	<li><a id="manager-mny" href="http://manager.money.pl/" title="Manager">Manager</a></li>
+                	<li><a id="tech-mny" href="http://tech.money.pl/" title="Technologie">Technologie</a></li>
+                	<li><a id="moto-mny" href="http://moto.money.pl/" title="Motoryzacja">Motoryzacja</a></li>
+                	<li><a id="dom-mny" href="http://dom.money.pl/" title="Nieruchomości">Nieruchomości</a></li>
+                	<li><a id="praca-mny" href="http://praca.money.pl/" title="Praca">Praca</a></li>
+                	<li><a id="forum-mny" href="http://www.money.pl/forum/" title="Forum">Forum</a></li>
+        		<li><a title="Wideo" href="http://manager.money.pl/wideo/" id="wideo-mny">Wideo</a></li><li><a title="Rozliczenia PIT 2013/2014" href="http://www.money.pl/podatki/pit_2013/" id="pit-mny" style="color:red">PIT 2013</a></li><li><a href="http://www.money.pl/sekcja/mieszkanie-dla-mlodych/" target="_blank" style="color:red" id="mdm-mny">MdM</a></li> 
+    </ul>
+    <ul id="sf-mny-links">
+		        	<li>
+        		<a href="http://news.money.pl/">Wiadomości</a>
+        		        	</li>
+    	        	<li class="sel" sel="1" p_id="319">
+        		<a href="http://www.money.pl/gielda/">Giełda <span class="wiecej">rozwiń</span></a>
+        		        			<ul class="level1">
+        				
+        											<li class="Hover adv">
+								<a class="b0" href="http://www.money.pl/gielda/na-zywo/" style="background:#AB4646;display:block;height:21px;line-height:21px;text-indent:10px;width:180px;margin:0;padding:0">
+																		Giełda na żywo
+								</a>
+								<div class="okno3" m_id="1682"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="full " href="http://www.money.pl/gielda/gpw/akcje/">
+																		GPW notowania
+								</a>
+								<div class="okno3" m_id="368"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="full " href="http://www.money.pl/gielda/indeksy_gpw/">
+																		GPW indeksy
+								</a>
+								<div class="okno3" m_id="379"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="" href="http://www.money.pl/gielda/archiwum/spolki/">
+																		Archiwum GPW
+								</a>
+								<div class="okno3" m_id="354"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="" href="http://www.money.pl/gielda/newconnect/">
+																		NewConnect
+								</a>
+								<div class="okno3" m_id="356"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="full " href="http://www.money.pl/gielda/spolki_gpw/">
+																		Spółki
+								</a>
+								<div class="okno3" m_id="357"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="full " href="http://www.money.pl/gielda/swiat/">
+																		Giełdy światowe
+								</a>
+								<div class="okno3" m_id="348"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="full " href="http://www.money.pl/gielda/surowce/">
+																		Surowce
+								</a>
+								<div class="okno3" m_id="343"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="full " href="http://www.money.pl/gielda/energia/rdn/">
+																		Energia
+								</a>
+								<div class="okno3" m_id="330"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="" href="http://www.money.pl/gielda/ipo/">
+																		IPO
+								</a>
+								<div class="okno3" m_id="353"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="" href="http://www.money.pl/gielda/rekomendacje/">
+																		Rekomendacje
+								</a>
+								<div class="okno3" m_id="355"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="full " href="">
+																		Artykuły
+								</a>
+								<div class="okno3" m_id="333"></div>
+							</li>
+							
+													<li class="Hover">
+								<a class="" href="http://www.money.pl/gielda/maklerskie/">
+																		Domy maklerskie
+								</a>
+								<div class="okno3" m_id="329"></div>
+							</li>
+							
+													<li class="Hover ikona">
+								<a class="full " href="">
+																			<img src="http://static1.money.pl/i/gielda/Ico1.png" alt="" />
+																		Narzędzia
+								</a>
+								<div class="okno3" m_id="320"></div>
+							</li>
+							
+											</ul>
+        		        	</li>
+    	        	<li>
+        		<a href="http://www.money.pl/pieniadze/">Waluty</a>
+        		        	</li>
+    	        	<li>
+        		<a href="http://www.money.pl/banki/">Banki</a>
+        		        	</li>
+    	        	<li>
+        		<a href="http://www.money.pl/emerytury/">Emerytury</a>
+        		        	</li>
+    	        	<li>
+        		<a href="http://www.money.pl/fundusze/">Fundusze</a>
+        		        	</li>
+    	        	<li>
+        		<a href="http://www.money.pl/gospodarka/">Gospodarka</a>
+        		        	</li>
+    	        	<li>
+        		<a href="http://agrobiznes.money.pl/">Agrobiznes</a>
+        		        	</li>
+    	        	<li>
+        		<a href="http://www.money.pl/podatki/">Podatki</a>
+        		        	</li>
+    	        	<li>
+        		<a href="http://www.money.pl/ubezpieczenia/">Ubezpieczenia</a>
+        		        	</li>
+    	        	<li>
+        		<a href="http://direct.money.pl/kredytymieszkaniowe/" class="adv" target="_blank">Kredyty hipoteczne</a>
+        		        	</li>
+    	        	<li>
+        		<a href="http://direct.money.pl/kredytygotowkowe/" class="adv" target="_blank">Gotówki</a>
+        		        	</li>
+    	        	<li>
+        		<a href="http://diff.smartadserver.com/call/cliccommand/9870910/151976/20140219112513?http://www.money.pl/eurobank/">Twoje finanse</a>
+        		        	</li>
+    	    </ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="http://static1.money.pl/j/menu/top_614.js"></script>
+<script type="text/javascript">
+	jQuery('#dzialy').mnymenutree();
+</script>
+</div>
+
+    		<div id="mnytop">
+    		
+<style>
+#newsHot{font-size:16px;margin:5px auto;position:relative;width:975px}
+#newsHot *{text-align:left !important}
+#newsHot .hotHeader,#newsHot .hotContent{border-radius:4px}
+
+.hotHeader {width: 955px;padding: 8px 0 8px 20px !important; margin-bottom: 3px !important; float:left;}
+#newsHot .hotContent{padding-bottom:20px}
+.clearFL{clear:both;font-size:1px}
+.hotHeader ul {list-style: none; display: block; margin: 0 !important;  padding: 0 !important;}
+.hotHeader ul li {display: block; float: left; padding: 5px 0 0 7px !important;}
+.hotHeader ul li div {font-size: 18px; font-weight: normal; color: #fff; padding: 0; margin:0;}
+.hotHeader .hotHeader-1st {padding: 2px 10px !important; margin-right: 8px!important; max-width: 200px; max-height: 43px; overflow:hidden;}
+.hotHeader .hotHeader-2nd {max-width: 580px;}
+.hotPhoto{margin:20px 20px 0 !important;width:650px}
+.hotPhoto span{display:block;font-size:10px;padding:4px 0}
+.hotTitle{margin-top:20px !important;text-align:left !important;width:265px}
+
+.hotHeader ul li.hotHeader-1st { background: #151515 }
+
+#newsHot.redBox .hotHeader,#newsHot.redBox .hotContent{background:#dd1a10}
+#newsHot.redBox a:hover,#newsHot.redBox .hotPhoto span{color:#facac8;text-decoration:none}
+#newsHot.blueBox .hotHeader,#newsHot.blueBox .hotContent{background:#024393}
+#newsHot.blueBox a:hover,#newsHot.blueBox .hotPhoto span{color:#d3e8f7;text-decoration:none}
+#newsHot.blackBox .hotHeader,#newsHot.blackBox .hotContent{background:#3a3a3a}
+#newsHot.blackBox a:hover,#newsHot.blackBox .hotPhoto span{color:#c9c9c9;text-decoration:none}
+#newsHot.transparentBox .hotHeader{background:#f5f5f5}
+#newsHot.transparentBox .hotContent{background:#fff}
+#newsHot.transparentBox a,#newsHot.transparentBox .hotHeader ul li h2{color:#5c5c5c;text-decoration:none}
+#newsHot.transparentBox .impLink a:hover{color:#c4222e}
+#newsHot.transparentBox a:hover,#newsHot.transparentBox .hotPhoto span{color:#4d4d4d;text-decoration:none}
+
+.impLink{border-left:16px solid #1d1d1d;color:#fff;display:inline-block;font-size:30px;line-height:1.2;padding:1px 0}
+.impLink a{background-color:#1d1d1d;margin:0 !important;padding:0.05em !important}
+.impLink a strong{left:-8px;position:relative}
+
+#newsHot ul{list-style:none}
+#newsHot ul li{font-weight:700;padding:8px 0 8px 12px}
+#newsHot a,#newsHot.transparentBox .impLink a{color:#fff}
+
+#newsHot.transparentBox {border-bottom:4px solid #f5f5f5;margin-bottom:15px}
+#newsHot.transparentBox .hotContent {padding-bottom:28px}
+#newsHot.transparentBox .hotPhoto {margin:20px 10px 0  0!important}
+#newsHot.transparentBox .hotHeader ul .hotHeader-1st {background:#b0000d}
+#newsHot.transparentBox .impLink {border:0;padding-left:10px}
+#newsHot.transparentBox .impLink a {background:none;border:none;color:#af000c;letter-spacing:-0.5px}
+#newsHot.transparentBox .impLink strong {left:0}
+</style>
+
+
+<div id="mnytop">
+        <div id="newsHot" class="transparentBox">
+            <div class="hotHeader">
+                <ul>
+                    <li class="hotHeader-1st"><div id="hot_head_h1">10 lat Polski w Unii</div><span></span></li>
+                    <li class="hotHeader-2nd"><div><a href="http://zmieniacunie.money.pl/">Prezentujemy bilans zysków i strat</a></div></li>
+                    <li>
+                    	<a href="https://twitter.com/share" class="twitter-share-button" data-via="Money_pl" data-lang="pl" data-text="Prezentujemy bilans zysków i strat" data-url="http://zmieniacunie.money.pl/"></a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li>                </ul>
+            </div>
+                    </div>
+</div>
+
+  <script type="text/javascript">
+  function fadeDone()
+  {
+	  //alert('done');
+	  jQuery("#hot_head_h1").fadeIn(10);
+	  jQuery("#hot_head_h1").fadeOut(1200, fadeDone);
+  }
+  jQuery("#hot_head_h1").fadeOut(1200, fadeDone);
+
+  </script>
+    		</div>
+
+<div id="gielda" class="col2">
+
+
+
+	<!-- zegary ze świata -->
+	
+	<div class="path" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="/"><span itemprop="url">Money.pl</span></a><a itemprop="child" href="http://www.money.pl/gielda/"><span itemprop='title'>Giełda w Money.pl</span></a><a itemprop="child" href="http://www.money.pl/gielda/spolki_gpw/"><span itemprop='title'>Spółki GPW</span></a><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,informacje.html" itemprop="child"><span itemprop="title">Vistula SA (VST)</span></a> <span itemprop="title">notowania</span></div>	<div class="mpl_left">
+				<div class="b650 box form_boksy">	
+	<div class="b210 fl mr10 p_rel">
+		<div class="corner box">	
+			<div class="hd">Szukaj spółki</div>
+			<form action="." class="form" method="post">
+				<input id="shortcut_symbol" type="text" name="symbol" class="in" />
+				<input  type="submit" name="search_ticker" class="but" value="OK" />
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript">
+		jQuery(function() {
+			jQuery('#shortcut_symbol').autocompleteMoneyAnalytics({source_url: "/ajax/gielda/symbol/", source_param: {spolki: 1}, multiple: false, min_length: 0});
+		});
+	</script>
+
+
+	<div class="b210 fl mr10">
+	<div class="corner box">
+		<div class="hd">Wybierz spółkę</div>
+		<form action="." method="post" class="form">
+			<select name="symbol" class="sin">
+<option label="Wybierz" value="0">Wybierz</option>
+<option label="01NFI" value="01N">01NFI</option>
+<option label="06MAGNA" value="06N">06MAGNA</option>
+<option label="08OCTAVA" value="08N">08OCTAVA</option>
+<option label="13FORTUNA" value="13N">13FORTUNA</option>
+<option label="14ZACH" value="14N">14ZACH</option>
+<option label="4FUNMEDIA" value="4FM">4FUNMEDIA</option>
+<option label="ABCDATA" value="ABC">ABCDATA</option>
+<option label="ABG" value="ABG">ABG</option>
+<option label="ABMSOLID" value="ABM">ABMSOLID</option>
+<option label="ABPL" value="ABE">ABPL</option>
+<option label="ACAUTOGAZ" value="ACG">ACAUTOGAZ</option>
+<option label="ACE" value="ACE">ACE</option>
+<option label="ACTION" value="ACT">ACTION</option>
+<option label="ADVADIS" value="ADS">ADVADIS</option>
+<option label="AGORA" value="AGO">AGORA</option>
+<option label="AGROTON" value="AGT">AGROTON</option>
+<option label="AGROWILL" value="AWG">AGROWILL</option>
+<option label="ALCHEMIA" value="ALC">ALCHEMIA</option>
+<option label="ALIOR-PDA" value="ALR">ALIOR-PDA</option>
+<option label="ALMA" value="ALM">ALMA</option>
+<option label="ALTA" value="AAT">ALTA</option>
+<option label="ALTERCO" value="ALT">ALTERCO</option>
+<option label="AMBRA" value="AMB">AMBRA</option>
+<option label="AMICA" value="AMC">AMICA</option>
+<option label="AMPLI" value="APL">AMPLI</option>
+<option label="AMREST" value="EAT">AMREST</option>
+<option label="APATOR" value="APT">APATOR</option>
+<option label="APLISENS" value="APN">APLISENS</option>
+<option label="ARCTIC" value="ATC">ARCTIC</option>
+<option label="ARCUS" value="ARC">ARCUS</option>
+<option label="ARMATURA" value="ARM">ARMATURA</option>
+<option label="ARTEFE" value="ART">ARTEFE</option>
+<option label="ARTERIA" value="ARR">ARTERIA</option>
+<option label="ASBIS" value="ASB">ASBIS</option>
+<option label="ASSECOBS" value="ABS">ASSECOBS</option>
+<option label="ASSECOPOL" value="ACP">ASSECOPOL</option>
+<option label="ASSECOSEE" value="ASE">ASSECOSEE</option>
+<option label="ASSECOSLO" value="ACS">ASSECOSLO</option>
+<option label="ASTARTA" value="AST">ASTARTA</option>
+<option label="ATENDE" value="ATD">ATENDE</option>
+<option label="ATLANTAPL" value="ATP">ATLANTAPL</option>
+<option label="ATLANTIS" value="ATS">ATLANTIS</option>
+<option label="ATLASEST" value="ATL">ATLASEST</option>
+<option label="ATM" value="ATM">ATM</option>
+<option label="ATMGRUPA" value="ATG">ATMGRUPA</option>
+<option label="ATREM" value="ATR">ATREM</option>
+<option label="AVIAAM LEASING AB" value="AAL">AVIAAM LEASING AB</option>
+<option label="AVIASG" value="ASG">AVIASG</option>
+<option label="AWBUD" value="AWB">AWBUD</option>
+<option label="AZOTYTARNOW" value="ATT">AZOTYTARNOW</option>
+<option label="B3SYSTEM" value="B3S">B3SYSTEM</option>
+<option label="BACA" value="BCA">BACA</option>
+<option label="BAKALLAND" value="BAK">BAKALLAND</option>
+<option label="BALTONA" value="BAL">BALTONA</option>
+<option label="BANKIER.PL" value="BPL">BANKIER.PL</option>
+<option label="BARLINEK" value="BRK">BARLINEK</option>
+<option label="BBIDEVNFI" value="BBD">BBIDEVNFI</option>
+<option label="BEDZIN" value="BDZ">BEDZIN</option>
+<option label="BENEFIT" value="BFT">BENEFIT</option>
+<option label="BERLING" value="BRG">BERLING</option>
+<option label="BEST" value="BST">BEST</option>
+<option label="BETACOM" value="BCM">BETACOM</option>
+<option label="BGZ" value="BGZ">BGZ</option>
+<option label="BIOTON" value="BIO">BIOTON</option>
+<option label="BIPROMET" value="BPM">BIPROMET</option>
+<option label="BLACKLION" value="BLI">BLACKLION</option>
+<option label="BMPAG" value="BMP">BMPAG</option>
+<option label="BNPPL" value="BNP">BNPPL</option>
+<option label="BOGDANKA" value="LWB">BOGDANKA</option>
+<option label="BOMI" value="BMI">BOMI</option>
+<option label="BORYSZEW" value="BRS">BORYSZEW</option>
+<option label="BOS" value="BOS">BOS</option>
+<option label="BOWIM" value="BOW">BOWIM</option>
+<option label="BPHPBK" value="BPH">BPHPBK</option>
+<option label="BSCDRUK" value="BSC">BSCDRUK</option>
+<option label="BUDIMEX" value="BDX">BUDIMEX</option>
+<option label="BUDOPOL" value="BDL">BUDOPOL</option>
+<option label="BUDVARCEN" value="BDV">BUDVARCEN</option>
+<option label="BUMECH" value="BMC">BUMECH</option>
+<option label="BYTOM" value="BTM">BYTOM</option>
+<option label="BZWBK" value="BZW">BZWBK</option>
+<option label="CALATRAVA" value="CTC">CALATRAVA</option>
+<option label="CAMMEDIA" value="CAM">CAMMEDIA</option>
+<option label="CAPITAL" value="CPA">CAPITAL</option>
+<option label="CAPITAL PARK" value="CPG">CAPITAL PARK</option>
+<option label="CASHFLOW" value="CFL">CASHFLOW</option>
+<option label="CCC" value="CCC">CCC</option>
+<option label="CCENERGY" value="CCE">CCENERGY</option>
+<option label="CDPROJEKT" value="CDR">CDPROJEKT</option>
+<option label="CEDC" value="CDC">CEDC</option>
+<option label="CELTIC" value="CPD">CELTIC</option>
+<option label="CENTKLIMA" value="CKL">CENTKLIMA</option>
+<option label="CEZ" value="CEZ">CEZ</option>
+<option label="CHEMOS" value="CHS">CHEMOS</option>
+<option label="CIECH" value="CIE">CIECH</option>
+<option label="CIGAMES" value="CIG">CIGAMES</option>
+<option label="CNT" value="CNT">CNT</option>
+<option label="COALENERG" value="CLE">COALENERG</option>
+<option label="COGNOR" value="COG">COGNOR</option>
+<option label="COLIAN" value="COL">COLIAN</option>
+<option label="COMARCH" value="CMR">COMARCH</option>
+<option label="COMP" value="CMP">COMP</option>
+<option label="COMPERIA" value="CPL">COMPERIA</option>
+<option label="COMPLEX" value="CMX">COMPLEX</option>
+<option label="CORMAY" value="CRM">CORMAY</option>
+<option label="CSS" value="CSS">CSS</option>
+<option label="CUBEITG" value="CTG">CUBEITG</option>
+<option label="CYFRPLSAT" value="CPS">CYFRPLSAT</option>
+<option label="CZTOREBKA" value="CZT">CZTOREBKA</option>
+<option label="DEBICA" value="DBC">DEBICA</option>
+<option label="DECORA" value="DCR">DECORA</option>
+<option label="DELKO" value="DEL">DELKO</option>
+<option label="DGA" value="DGA">DGA</option>
+<option label="WDMSA" value="WDM">WDMSA</option>
+<option label="DOMDEV" value="DOM">DOMDEV</option>
+<option label="DRAGOWSKI" value="ADD">DRAGOWSKI</option>
+<option label="DREWEX" value="DRE">DREWEX</option>
+<option label="DROP" value="DRP">DROP</option>
+<option label="DROZAPOL" value="DPL">DROZAPOL</option>
+<option label="DSS" value="DSS">DSS</option>
+<option label="DTP" value="DTP">DTP</option>
+<option label="DUDA" value="DUD">DUDA</option>
+<option label="DUON" value="DUO">DUON</option>
+<option label="DZPOLSKA" value="DZP">DZPOLSKA</option>
+<option label="ECARD" value="ECD">ECARD</option>
+<option label="ECHO" value="ECH">ECHO</option>
+<option label="EDINVEST" value="EDI">EDINVEST</option>
+<option label="EFEKT" value="EFK">EFEKT</option>
+<option label="EFH" value="EFH">EFH</option>
+<option label="EKANCELAR" value="EKA">EKANCELAR</option>
+<option label="EKO" value="EKO">EKO</option>
+<option label="EKOEXPORT" value="EEX">EKOEXPORT</option>
+<option label="ELBUDOWA" value="ELB">ELBUDOWA</option>
+<option label="ELEKTRIM" value="ELE">ELEKTRIM</option>
+<option label="ELEKTROEX" value="ELX">ELEKTROEX</option>
+<option label="ELEKTROTIM" value="ELT">ELEKTROTIM</option>
+<option label="ELEMENTAL HOLDING" value="EMT">ELEMENTAL HOLDING</option>
+<option label="ELKOP" value="EKP">ELKOP</option>
+<option label="ELSTAROIL" value="ELS">ELSTAROIL</option>
+<option label="ELZAB" value="ELZ">ELZAB</option>
+<option label="EMCINSMED" value="EMC">EMCINSMED</option>
+<option label="NFIEMF" value="EMF">NFIEMF</option>
+<option label="EMPERIA" value="EMP">EMPERIA</option>
+<option label="ENAP" value="ENP">ENAP</option>
+<option label="ENEA" value="ENA">ENEA</option>
+<option label="ENEL-MED" value="ENE">ENEL-MED</option>
+<option label="Energa" value="ENG">Energa</option>
+<option label="ENERGOINS" value="ENI">ENERGOINS</option>
+<option label="ENERGOPLD" value="EPD">ENERGOPLD</option>
+<option label="ENERGOPN" value="EPN">ENERGOPN</option>
+<option label="ERBUD" value="ERB">ERBUD</option>
+<option label="ERGIS" value="EEF">ERGIS</option>
+<option label="ESSYSTEM" value="ESS">ESSYSTEM</option>
+<option label="ESTAR" value="EST">ESTAR</option>
+<option label="EUCO" value="EUC">EUCO</option>
+<option label="EUIMPLANT" value="EUI">EUIMPLANT</option>
+<option label="EUROCASH" value="EUR">EUROCASH</option>
+<option label="EUROHOLD" value="EHG">EUROHOLD</option>
+<option label="EUROMARK" value="EMK">EUROMARK</option>
+<option label="EUROTEL" value="ETL">EUROTEL</option>
+<option label="EXILLON" value="EXL">EXILLON</option>
+<option label="FAM" value="FAM">FAM</option>
+<option label="FAMUR" value="FMF">FAMUR</option>
+<option label="FARMACOL" value="FCL">FARMACOL</option>
+<option label="FASING" value="FSG">FASING</option>
+<option label="FASTFIN" value="FFI">FASTFIN</option>
+<option label="FEERUM" value="FEE">FEERUM</option>
+<option label="FERRO" value="FRO">FERRO</option>
+<option label="FERRUM" value="FER">FERRUM</option>
+<option label="FON" value="FON">FON</option>
+<option label="FORTE" value="FTE">FORTE</option>
+<option label="FORTUNA" value="FEG">FORTUNA</option>
+<option label="FOTA" value="FOT">FOTA</option>
+<option label="GADUGADU" value="GGU">GADUGADU</option>
+<option label="GANT" value="GNT">GANT</option>
+<option label="GETIN" value="GTN">GETIN</option>
+<option label="GETINOBLE" value="GNB">GETINOBLE</option>
+<option label="GINOROSSI" value="GRI">GINOROSSI</option>
+<option label="GLOBAL CITY HOLDINGS" value="GCH">GLOBAL CITY HOLDINGS</option>
+<option label="GLOBAL COSMED" value="GLC">GLOBAL COSMED</option>
+<option label="GLOBAL ENERGY" value="GLE">GLOBAL ENERGY</option>
+<option label="GORENJE" value="GRV">GORENJE</option>
+<option label="GPW" value="GPW">GPW</option>
+<option label="GRAAL" value="GRL">GRAAL</option>
+<option label="GRAJEWO" value="GRJ">GRAJEWO</option>
+<option label="GREENECO" value="GET">GREENECO</option>
+<option label="GREMMEDIA" value="GMM">GREMMEDIA</option>
+<option label="GROCLIN" value="GCN">GROCLIN</option>
+<option label="GTC-PDA" value="GTC">GTC-PDA</option>
+<option label="HANDLOWY" value="BHW">HANDLOWY</option>
+<option label="HARPER" value="HRP">HARPER</option>
+<option label="HAWE" value="HWE">HAWE</option>
+<option label="HBPOLSKA" value="HBP">HBPOLSKA</option>
+<option label="HELIO" value="HEL">HELIO</option>
+<option label="HERKULES" value="HRS">HERKULES</option>
+<option label="HTLSTREFA" value="HTL">HTLSTREFA</option>
+<option label="HUTMEN" value="HTM">HUTMEN</option>
+<option label="HYDROTOR" value="HDR">HYDROTOR</option>
+<option label="HYGIENIKA" value="HGN">HYGIENIKA</option>
+<option label="HYPERION" value="HYP">HYPERION</option>
+<option label="IDEATFI" value="IDA">IDEATFI</option>
+<option label="IDMSAPL" value="IDM">IDMSAPL</option>
+<option label="IFCAPITAL" value="IFC">IFCAPITAL</option>
+<option label="IMCOMPANY" value="IMC">IMCOMPANY</option>
+<option label="IMMOBILE" value="GKI">IMMOBILE</option>
+<option label="IMMOEAST" value="IEA">IMMOEAST</option>
+<option label="IMMOFINANZ AG" value="IIA">IMMOFINANZ AG</option>
+<option label="IMPEL" value="IPL">IMPEL</option>
+<option label="IMPERA" value="IMP">IMPERA</option>
+<option label="IMPEXMET" value="IPX">IMPEXMET</option>
+<option label="INDYGOTECH MINERALS" value="IDG">INDYGOTECH MINERALS</option>
+<option label="INDYKPOL" value="IND">INDYKPOL</option>
+<option label="INGBSK" value="ING">INGBSK</option>
+<option label="INPRO" value="INP">INPRO</option>
+<option label="INSTALKRK" value="INK">INSTALKRK</option>
+<option label="INTAKUS" value="ITK">INTAKUS</option>
+<option label="INTEGERPL" value="ITG">INTEGERPL</option>
+<option label="INTERAOLT" value="IRL">INTERAOLT</option>
+<option label="INTERBUD" value="ITB">INTERBUD</option>
+<option label="INTERCARS" value="CAR">INTERCARS</option>
+<option label="INTERFERIE" value="INF">INTERFERIE</option>
+<option label="INTERSPPL" value="IPO">INTERSPPL</option>
+<option label="INTROL" value="INL">INTROL</option>
+<option label="INVISTA" value="INV">INVISTA</option>
+<option label="INWESTCON" value="INC">INWESTCON</option>
+<option label="IPOPEMA" value="IPE">IPOPEMA</option>
+<option label="IQP" value="IQP">IQP</option>
+<option label="IRENA" value="IRE">IRENA</option>
+<option label="IVMX" value="IMX">IVMX</option>
+<option label="IZOLACJA" value="IZO">IZOLACJA</option>
+<option label="IZOSTAL" value="IZS">IZOSTAL</option>
+<option label="JAGO" value="JAG">JAGO</option>
+<option label="JCAUTO" value="JCA">JCAUTO</option>
+<option label="JHMDEV" value="JHM">JHMDEV</option>
+<option label="JSW" value="JSW">JSW</option>
+<option label="JUPITER" value="JPR">JUPITER</option>
+<option label="JWCONSTR" value="JWC">JWCONSTR</option>
+<option label="K2INTERNT" value="K2I">K2INTERNT</option>
+<option label="KABLE" value="KBL">KABLE</option>
+<option label="KANIA" value="KAN">KANIA</option>
+<option label="KBDOM" value="KBD">KBDOM</option>
+<option label="KCI" value="KCI">KCI</option>
+<option label="KDMSHIPNG" value="KDM">KDMSHIPNG</option>
+<option label="KERNEL" value="KER">KERNEL</option>
+<option label="KETY" value="KTY">KETY</option>
+<option label="KGHM" value="KGH">KGHM</option>
+<option label="KINO POLSKA" value="KPL">KINO POLSKA</option>
+<option label="KOFOLA" value="KFL">KOFOLA</option>
+<option label="KOGENERA" value="KGN">KOGENERA</option>
+<option label="KOMPAP" value="KMP">KOMPAP</option>
+<option label="KOMPUTRON" value="KOM">KOMPUTRON</option>
+<option label="KONSSTALI" value="KST">KONSSTALI</option>
+<option label="KOPEX" value="KPX">KOPEX</option>
+<option label="KPPD" value="KPD">KPPD</option>
+<option label="KRAKCHEM" value="KCH">KRAKCHEM</option>
+<option label="KREC" value="KRC">KREC</option>
+<option label="KREDYTB" value="KRB">KREDYTB</option>
+<option label="KREDYTIN" value="KRI">KREDYTIN</option>
+<option label="KREZUS" value="KZS">KREZUS</option>
+<option label="KRKA" value="KRK">KRKA</option>
+<option label="KROSNO" value="KRS">KROSNO</option>
+<option label="KRUK" value="KRU">KRUK</option>
+<option label="KRUSZWICA" value="KSW">KRUSZWICA</option>
+<option label="KSGAGRO" value="KSG">KSGAGRO</option>
+<option label="LCCORP" value="LCC">LCCORP</option>
+<option label="LDASA" value="LDS">LDASA</option>
+<option label="LENA" value="LEN">LENA</option>
+<option label="LENTEX" value="LTX">LENTEX</option>
+<option label="LIBET" value="LBT">LIBET</option>
+<option label="LOTOS" value="LTS">LOTOS</option>
+<option label="LPP" value="LPP">LPP</option>
+<option label="LSISOFT" value="LSI">LSISOFT</option>
+<option label="LUBAWA" value="LBW">LUBAWA</option>
+<option label="MABION" value="MAB">MABION</option>
+<option label="MAGELLAN" value="MAG">MAGELLAN</option>
+<option label="MAKARONPL" value="MAK">MAKARONPL</option>
+<option label="MARVIPOL" value="MVP">MARVIPOL</option>
+<option label="MBANK" value="MBK">MBANK</option>
+<option label="MCI" value="MCI">MCI</option>
+<option label="MCLOGIC" value="MCL">MCLOGIC</option>
+<option label="MEDIATEL" value="MTL">MEDIATEL</option>
+<option label="MEDICALG" value="MDG">MEDICALG</option>
+<option label="MENNICA" value="MNC">MENNICA</option>
+<option label="MERCATOR MEDICAL" value="MRC">MERCATOR MEDICAL</option>
+<option label="MERCOR" value="MCR">MERCOR</option>
+<option label="MEWA" value="MEW">MEWA</option>
+<option label="MEXPOLSKA" value="MEX">MEXPOLSKA</option>
+<option label="MFO" value="MFO">MFO</option>
+<option label="MIDAS" value="MDS">MIDAS</option>
+<option label="MIESZKO" value="MSO">MIESZKO</option>
+<option label="MILKILAND" value="MLK">MILKILAND</option>
+<option label="MILLENNIUM" value="MIL">MILLENNIUM</option>
+<option label="MIRACULUM" value="MIR">MIRACULUM</option>
+<option label="MIRBUD" value="MRB">MIRBUD</option>
+<option label="MISPOL" value="MIP">MISPOL</option>
+<option label="PPWK" value="MIT">PPWK</option>
+<option label="MLP GROUP" value="MLG">MLP GROUP</option>
+<option label="MMPPL" value="MMP">MMPPL</option>
+<option label="MNI" value="MNI">MNI</option>
+<option label="MOBRUK" value="MBR">MOBRUK</option>
+<option label="MOJ" value="MOJ">MOJ</option>
+<option label="MOL" value="MOL">MOL</option>
+<option label="MONNARI" value="MON">MONNARI</option>
+<option label="MOSTALEXP" value="MSX">MOSTALEXP</option>
+<option label="MOSTALPLC" value="MSP">MOSTALPLC</option>
+<option label="MOSTALWAR" value="MSW">MOSTALWAR</option>
+<option label="MOSTALZAB" value="MSZ">MOSTALZAB</option>
+<option label="MUZA" value="MZA">MUZA</option>
+<option label="MWTRADE" value="MWT">MWTRADE</option>
+<option label="NAFTOBUDOWA" value="NFT">NAFTOBUDOWA</option>
+<option label="NEPENTES" value="NEP">NEPENTES</option>
+<option label="NETIA" value="NET">NETIA</option>
+<option label="NETMEDIA" value="NEM">NETMEDIA</option>
+<option label="NEUCA" value="NEU">NEUCA</option>
+<option label="NEWAG" value="NWG">NEWAG</option>
+<option label="NWR" value="NWR">NWR</option>
+<option label="NOKAUT" value="NOK">NOKAUT</option>
+<option label="NORDEABP" value="NDA">NORDEABP</option>
+<option label="NORTCOAST" value="NCT">NORTCOAST</option>
+<option label="NOVAKBM" value="KBM">NOVAKBM</option>
+<option label="NOVITA" value="NVT">NOVITA</option>
+<option label="NOVITUS" value="NVS">NOVITUS</option>
+<option label="NOWAGALA" value="CNG">NOWAGALA</option>
+<option label="NTTSYSTEM" value="NTT">NTTSYSTEM</option>
+<option label="ODLEWNIE" value="ODL">ODLEWNIE</option>
+<option label="OLYMPIC" value="OEG">OLYMPIC</option>
+<option label="ONE2ONE" value="O2O">ONE2ONE</option>
+<option label="OPENFINANCE" value="OPF">OPENFINANCE</option>
+<option label="OPOCZNO" value="OPO">OPOCZNO</option>
+<option label="OPONEO.PL" value="OPN">OPONEO.PL</option>
+<option label="OPTEAM" value="OPM">OPTEAM</option>
+<option label="ORANGEPL" value="OPL">ORANGEPL</option>
+<option label="ORBIS" value="ORB">ORBIS</option>
+<option label="ORCOGROUP" value="OPG">ORCOGROUP</option>
+<option label="ORZBIALY" value="OBL">ORZBIALY</option>
+<option label="ORZEL" value="ORZ">ORZEL</option>
+<option label="OT LOGISTICS" value="OTS">OT LOGISTICS</option>
+<option label="OTMUCHOW" value="OTM">OTMUCHOW</option>
+<option label="Ovostar Union" value="OVO">Ovostar Union</option>
+<option label="PAGED" value="PGD">PAGED</option>
+<option label="PAMAPOL" value="PMP">PAMAPOL</option>
+<option label="PANOVA" value="NVA">PANOVA</option>
+<option label="PATENTUS" value="PAT">PATENTUS</option>
+<option label="PBG" value="PBG">PBG</option>
+<option label="PBOANIOLA" value="PBO">PBOANIOLA</option>
+<option label="PBSFINANSE" value="PBF">PBSFINANSE</option>
+<option label="PCCEXOL" value="PCX">PCCEXOL</option>
+<option label="PCCINTER" value="PCI">PCCINTER</option>
+<option label="PCGUARD" value="PCG">PCGUARD</option>
+<option label="PEGAS" value="PGS">PEGAS</option>
+<option label="PEIXIN" value="PEX">PEIXIN</option>
+<option label="PEKAES" value="PEK">PEKAES</option>
+<option label="PEKAO" value="PEO">PEKAO</option>
+<option label="Pelion" value="PEL">Pelion</option>
+<option label="PEMUG" value="PMG">PEMUG</option>
+<option label="PEP" value="PEP">PEP</option>
+<option label="PEPEES" value="PPS">PEPEES</option>
+<option label="PERMEDIA" value="PMD">PERMEDIA</option>
+<option label="PETROLINV" value="OIL">PETROLINV</option>
+<option label="PGE" value="PGE">PGE</option>
+<option label="PGNIG" value="PGN">PGNIG</option>
+<option label="PGODLEW" value="PGO">PGODLEW</option>
+<option label="PHN" value="PHN">PHN</option>
+<option label="PKNORLEN" value="PKN">PKNORLEN</option>
+<option label="PKOBP" value="PKO">PKOBP</option>
+<option label="PKP Cargo" value="PKP">PKP Cargo</option>
+<option label="PLASTBOX" value="PLX">PLASTBOX</option>
+<option label="PLAZACNTR" value="PLZ">PLAZACNTR</option>
+<option label="POINTGROUP" value="PGM">POINTGROUP</option>
+<option label="POLAQUA" value="PQA">POLAQUA</option>
+<option label="POLCOLOR" value="PLT">POLCOLOR</option>
+<option label="POLICE" value="PCE">POLICE</option>
+<option label="POLIMEXMS" value="PXM">POLIMEXMS</option>
+<option label="POLJADLO" value="PLJ">POLJADLO</option>
+<option label="POLLENAE" value="PLE">POLLENAE</option>
+<option label="POLMED" value="POM">POLMED</option>
+<option label="POLNA" value="PLA">POLNA</option>
+<option label="POLNORD" value="PND">POLNORD</option>
+<option label="POLREST" value="POL">POLREST</option>
+<option label="POZBUD" value="POZ">POZBUD</option>
+<option label="PPG" value="PPG">PPG</option>
+<option label="PRAGMAFA" value="PRF">PRAGMAFA</option>
+<option label="PRAGMAINK" value="PRI">PRAGMAINK</option>
+<option label="PRATERM" value="PTM">PRATERM</option>
+<option label="PRESCO" value="PRE">PRESCO</option>
+<option label="PRIMAMODA" value="PMA">PRIMAMODA</option>
+<option label="PROCAD" value="PRD">PROCAD</option>
+<option label="PROCHEM" value="PRM">PROCHEM</option>
+<option label="PROCHNIK" value="PRC">PROCHNIK</option>
+<option label="PROJPRZEM" value="PJP">PROJPRZEM</option>
+<option label="PROKOM" value="PKM">PROKOM</option>
+<option label="PROSPER" value="PSP">PROSPER</option>
+<option label="PROTEKTOR" value="PRT">PROTEKTOR</option>
+<option label="PROVIDENT" value="IPF">PROVIDENT</option>
+<option label="PTI" value="PTI">PTI</option>
+<option label="PUE" value="PUE">PUE</option>
+<option label="PUŁAWY" value="ZAP">PUŁAWY</option>
+<option label="PWRMEDIA" value="PWM">PWRMEDIA</option>
+<option label="PZU" value="PZU">PZU</option>
+<option label="QUANTUM" value="QNT">QUANTUM</option>
+<option label="QUERCUS " value="QRS">QUERCUS </option>
+<option label="QUMAK" value="QMK">QUMAK</option>
+<option label="RADPOL" value="RDL">RADPOL</option>
+<option label="RAFAKO" value="RFK">RAFAKO</option>
+<option label="RAFAMET" value="RAF">RAFAMET</option>
+<option label="RAINBOW" value="RBW">RAINBOW</option>
+<option label="RANKPROGR" value="RNK">RANKPROGR</option>
+<option label="RAWLPLUG" value="RWL">RAWLPLUG</option>
+<option label="REDAN" value="RDN">REDAN</option>
+<option label="REINHOLD" value="RHD">REINHOLD</option>
+<option label="RELPOL" value="RLP">RELPOL</option>
+<option label="REMAK" value="RMK">REMAK</option>
+<option label="RESBUD" value="RES">RESBUD</option>
+<option label="ROBYG" value="ROB">ROBYG</option>
+<option label="RONSON" value="RON">RONSON</option>
+<option label="ROPCZYCE" value="RPC">ROPCZYCE</option>
+<option label="ROVESE" value="RSE">ROVESE</option>
+<option label="RUBICON" value="RBC">RUBICON</option>
+<option label="RUCH" value="RCH">RUCH</option>
+<option label="SADOVAYA" value="SGR">SADOVAYA</option>
+<option label="SANOK" value="SNK">SANOK</option>
+<option label="SANWIL" value="SNW">SANWIL</option>
+<option label="SECOGROUP" value="SWG">SECOGROUP</option>
+<option label="SEKO" value="SEK">SEKO</option>
+<option label="SELENAFM" value="SEL">SELENAFM</option>
+<option label="SERINUS" value="SEN">SERINUS</option>
+<option label="SFINKS" value="SFS">SFINKS</option>
+<option label="SILVANO" value="SFG">SILVANO</option>
+<option label="SIMPLE" value="SME">SIMPLE</option>
+<option label="SKOK" value="SKO">SKOK</option>
+<option label="SKOTAN" value="SKT">SKOTAN</option>
+<option label="SKYEUROPE" value="SKY">SKYEUROPE</option>
+<option label="SKYLINE" value="SKL">SKYLINE</option>
+<option label="SMT" value="SMT">SMT</option>
+<option label="SNIEZKA" value="SKA">SNIEZKA</option>
+<option label="SOBIESKI" value="BVD">SOBIESKI</option>
+<option label="SOLAR" value="SOL">SOLAR</option>
+<option label="SONEL " value="SON">SONEL </option>
+<option label="SOPHARMA" value="SPH">SOPHARMA</option>
+<option label="SPRAY" value="SPY">SPRAY</option>
+<option label="STALEXP" value="STX">STALEXP</option>
+<option label="STALPROD" value="STP">STALPROD</option>
+<option label="STALPROFI" value="STF">STALPROFI</option>
+<option label="STAPORKOW" value="ZUK">STAPORKOW</option>
+<option label="STORMM" value="STM">STORMM</option>
+<option label="SUWARY" value="SUW">SUWARY</option>
+<option label="SWARZEDZ" value="SWZ">SWARZEDZ</option>
+<option label="SWIECIE" value="MSC">SWIECIE</option>
+<option label="SWISSMED" value="SWD">SWISSMED</option>
+<option label="SYGNITY" value="SGN">SYGNITY</option>
+<option label="SYNTHOS" value="SNS">SYNTHOS</option>
+<option label="TALEX" value="TLX">TALEX</option>
+<option label="TARCZYNSKI" value="TAR">TARCZYNSKI</option>
+<option label="TATRY" value="TMR">TATRY</option>
+<option label="TAURONPE" value="TPE">TAURONPE</option>
+<option label="TECHMEX" value="TEX">TECHMEX</option>
+<option label="TELL" value="TEL">TELL</option>
+<option label="TERESA" value="TER">TERESA</option>
+<option label="TESGAS" value="TSG">TESGAS</option>
+<option label="TETA" value="TET">TETA</option>
+<option label="TFONE" value="TFO">TFONE</option>
+<option label="TIM" value="TIM">TIM</option>
+<option label="TOORA" value="TOR">TOORA</option>
+<option label="TOYA" value="TOA">TOYA</option>
+<option label="TRAKCJA" value="TRK">TRAKCJA</option>
+<option label="TRANSPOL" value="TRN">TRANSPOL</option>
+<option label="TRAVELPL" value="TVL">TRAVELPL</option>
+<option label="TRITON" value="TRI">TRITON</option>
+<option label="TUEUROPA" value="ERP">TUEUROPA</option>
+<option label="TVN" value="TVN">TVN</option>
+<option label="ULMA" value="ULM">ULMA</option>
+<option label="UNIBEP" value="UNI">UNIBEP</option>
+<option label="UNICREDIT" value="UCG">UNICREDIT</option>
+<option label="UNIMA" value="U2K">UNIMA</option>
+<option label="URSUS" value="URS">URSUS</option>
+<option label="VANTAGE" value="VTG">VANTAGE</option>
+<option label="VARIANT" value="VRT">VARIANT</option>
+<option label="VINDEXUS" value="VIN">VINDEXUS</option>
+<option label="VISTAL GDYNIA" value="VTL">VISTAL GDYNIA</option>
+<option label="VISTULA" value="VST">VISTULA</option>
+<option label="VOTUM" value="VOT">VOTUM</option>
+<option label="VOXEL" value="VOX">VOXEL</option>
+<option label="W INVESTMENTS" value="WIS">W INVESTMENTS</option>
+<option label="WADEX " value="WAX">WADEX </option>
+<option label="WANDALEX" value="WDX">WANDALEX</option>
+<option label="WARIMPEX" value="WXF">WARIMPEX</option>
+<option label="WASKO" value="WAS">WASKO</option>
+<option label="WAWEL" value="WWL">WAWEL</option>
+<option label="WES" value="WES">WES</option>
+<option label="WIELTON" value="WLT">WIELTON</option>
+<option label="WIKANA" value="WIK">WIKANA</option>
+<option label="WILBO" value="WLB">WILBO</option>
+<option label="WISTIL" value="WST">WISTIL</option>
+<option label="WOJAS" value="WOJ">WOJAS</option>
+<option label="WOLAINFO" value="WIN">WOLAINFO</option>
+<option label="WORKSERV" value="WSE">WORKSERV</option>
+<option label="WSIP" value="WSP">WSIP</option>
+<option label="YAWAL" value="YWL">YAWAL</option>
+<option label="ZAMET" value="ZMT">ZAMET</option>
+<option label="ZASTAL" value="ZST">ZASTAL</option>
+<option label="ZE PAK" value="ZEP">ZE PAK</option>
+<option label="ZEG" value="ZEG">ZEG</option>
+<option label="ZELMER" value="ZLR">ZELMER</option>
+<option label="ZETKAMA" value="ZKA">ZETKAMA</option>
+<option label="ZNTKLAPY" value="ZNT">ZNTKLAPY</option>
+<option label="ZREMB" value="ZRE">ZREMB</option>
+<option label="ZTSERG" value="ERG">ZTSERG</option>
+<option label="ZUE" value="ZUE">ZUE</option>
+<option label="ZYWIEC" value="ZWC">ZYWIEC</option>
+</select>
+
+			<input type="submit" name="sector_choose" class="but" value="OK" />
+		</form>				
+	</div>
+</div><div class="b210 fl">
+	<div class="corner box">
+		<div class="hd">Wybierz sektor</div>
+		<form action="." method="post" class="form">
+			<select name="branza" class="sin">
+<option label="Wybierz" value="0" selected="selected">Wybierz</option>
+<option label="banki" value="210">banki</option>
+<option label="budownictwo" value="160">budownictwo</option>
+<option label="deweloperzy" value="162">deweloperzy</option>
+<option label="energetyka" value="380">energetyka</option>
+<option label="finanse - inne" value="290">finanse - inne</option>
+<option label="fundusze NFI" value="510">fundusze NFI</option>
+<option label="handel" value="310">handel</option>
+<option label="handel detaliczny" value="311">handel detaliczny</option>
+<option label="handel hurtowy" value="312">handel hurtowy</option>
+<option label="hotele i restauracje" value="360">hotele i restauracje</option>
+<option label="informatyka" value="320">informatyka</option>
+<option label="inwestycje" value="230">inwestycje</option>
+<option label="media" value="340">media</option>
+<option label="nieruchomości" value="163">nieruchomości</option>
+<option label="ochrona zdrowia" value="391">ochrona zdrowia</option>
+<option label="przemysł - inne" value="190">przemysł - inne</option>
+<option label="przemysł chemiczny" value="140">przemysł chemiczny</option>
+<option label="przemysł drzewny i papierniczy" value="130">przemysł drzewny i papierniczy</option>
+<option label="przemysł elektromaszynowy" value="170">przemysł elektromaszynowy</option>
+<option label="przemysł farmaceutyczny" value="142">przemysł farmaceutyczny</option>
+<option label="przemysł lekki" value="120">przemysł lekki</option>
+<option label="przemysł materiałów budowlanych" value="150">przemysł materiałów budowlanych</option>
+<option label="przemysł metalowy" value="180">przemysł metalowy</option>
+<option label="przemysł motoryzacyjny" value="171">przemysł motoryzacyjny</option>
+<option label="przemysł paliwowy" value="141">przemysł paliwowy</option>
+<option label="przemysł spożywczy" value="110">przemysł spożywczy</option>
+<option label="przemysł surowcowy" value="144">przemysł surowcowy</option>
+<option label="przemysł tworzyw sztucznych" value="143">przemysł tworzyw sztucznych</option>
+<option label="recykling" value="392">recykling</option>
+<option label="rynek kapitałowy" value="250">rynek kapitałowy</option>
+<option label="technologie" value="321">technologie</option>
+<option label="telekomunikacja" value="330">telekomunikacja</option>
+<option label="ubezpieczenia" value="220">ubezpieczenia</option>
+<option label="usługi - inne" value="390">usługi - inne</option>
+<option label="usługi finansowe" value="240">usługi finansowe</option>
+<option label="usługi komunalne" value="350">usługi komunalne</option>
+</select>
+
+			<input type="submit" name="sector_choose" class="but" value="OK" />
+		</form>				
+	</div>
+</div></div>
+
+
+<div class="b660 box">
+	<h1 class="hd big inbox">Vistula SA <em>[VST]</em></h1>
+
+<div class="taby taby3 bb1">
+	<ul>
+		<li class="sel"><span><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,informacje.html">Podsumowanie</a></span></li>
+		<li  ><span><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,o_firmie.html">O firmie</a></span></li>
+		<li  ><span><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,finanse.html">Finanse</a></span></li>
+		<li ><span><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,artykuly,1.html">Artykuły</a></span></li>			
+		<li ><span><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,emitent,1.html">Komunikaty</a></span></li>
+		<li ><span><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,forum.html">Forum</a></span></li>
+		<li class="last ">
+			<span>Wiecej</span>
+			<ul class="inbox">
+				<li><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,raporty.html">Raporty</a></li>
+				<li><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,analiza_techniczna.html">Analiza techniczna</a></li>
+				<li><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,transakcje,1.html">Transakcje</a></li>
+				<li><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,indeksy.html">Udział w indeksach</a></li>
+				<li><a href="http://www.money.pl/gielda/rekomendacje/rekomendacje,337,-1,1.html">Rekomendacje</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>			<div class="corner box sesja_big">
+			<script type="text/javascript" src="http://static1.money.pl/j/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://static1.money.pl/j/swfobject.js"></script>
+<script type="text/javascript">
+
+var current=0;
+var chartType='gfx'
+var gds='';
+var gde='';
+var gIntraday=0;
+
+function setCharDate(ds, de, tabSel, readData, intraday) {
+	var date = new Date();
+	date.setTime(date.getTime()+(30*24*60*60*1000));
+	var expires = "; expires="+date.toGMTString();
+	var deQ='';
+	if(ds=='' && de=='')
+	{
+	ds=jQuery('input#chart_date_od').val();
+	de=jQuery('input#chart_date_do').val();
+	deQ='&date_end='+de;
+	}
+	if(ds.length==0 || de.length==0) {
+		alert('Musisz wybrać datę początkową i końcową.');
+		return false;
+	}
+	if(ds>de) {
+		alert('Data początkowa musi byc mniejsza niz końcowa.');
+		return false;
+	}
+	gds=ds;
+	gde=de;
+	gIntraday=intraday;
+
+
+	if(readData)
+	{
+		t=intraday?'intraday':ds
+	jQuery.ajax({
+		  url: "http://www.money.pl/ajax/notowania_table/",
+		  type: 'post',
+		  data: "nf=%.2f"+deQ+"&symbol=VST&t="+t,
+		  
+		  success: function(data){
+			  jQuery('#notowania_d').html(data);
+		  }
+		});
+	}
+	intraStr=intraday?'&intraday=1':'';
+	
+			jQuery.getJSON('/ajax/gielda/chart_custom/?script=graphchart_nox&fst=1&symbol='+encodeURIComponent('VST')+'&w=400&h=160&ty=1&ds='+ds+'&de='+de+intraStr, function(data) {
+		
+		jQuery(current).removeClass('sel');
+		current=tabSel
+		jQuery(current).addClass('sel');
+		jQuery('#change').attr("class",data.color);
+		jQuery('#change').html(data.change);		
+		
+		if(chartType=='flash')
+		{
+			document.cookie = "chart_type=f"+expires+"; path=/";
+			
+			jQuery.ajax({
+			      url: '/d/analytics/get_chart_src.php',
+			      data: data.flash,
+			      type: 'post',
+			      success: chartDone
+			    });  
+			jQuery('#chart_placement2').html('');
+		}
+		else
+		{
+			
+			document.cookie = "chart_type=g"+expires+"; path=/";
+			var chart='';
+			chart+='<img id="chart" src="'+data.img+'" alt="wykres" width="400" height="160"/>'
+							chart+='<a href="#" onclick="window.open(\'http://www.money.pl/u/data_window/?smb=VST\', \'\', \'scrollbars=1, resizable=0, height=600, width=1000\'); return false;" class="zoom" title="Powiększ wykres"></a>'
+						
+			
+			jQuery('#chart_placement').html(chart);
+			
+								chart=chart.replace('_nox', '_tu');
+				chart=chart.replace('h=160', 'h=60');
+				chart=chart.replace('height="160"', 'height="60"');
+				jQuery('#chart_placement2').html(chart);	
+										
+		
+		}
+	});
+
+	jQuery('div.datatab').hide();
+	return false;
+}
+
+function chartDone(data)
+{
+	var obj = jQuery.parseJSON(data);
+	jQuery('#chart_placement').html(obj.url);
+}
+
+function setChartType(type)
+{
+	if(type==chartType)
+		return
+	if(type=='flash')
+	{
+		jQuery('#chart_type_gfx').removeClass('on');
+		jQuery('#chart_type_gfx').addClass('off');
+		jQuery('#chart_type_flash').removeClass('off');
+		jQuery('#chart_type_flash').addClass('on');
+	}
+	else
+	{
+		jQuery('#chart_type_gfx').removeClass('off');
+		jQuery('#chart_type_gfx').addClass('on');
+		jQuery('#chart_type_flash').removeClass('on');
+		jQuery('#chart_type_flash').addClass('off');
+	}
+	chartType=type;
+	setCharDate(gds, gde, current, true, gIntraday)
+}
+
+
+function bigClose()
+{
+	jQuery('#zoom1').remove();
+	jQuery.cookie("chart_big", 5, { expires : 30, domain  : '.money.pl', path: '/' });	
+}
+
+</script>
+
+<div class="corner box sesja_big">
+	<div class="wykres sesja" >
+		<div class="taby taby1 p_rel">
+						<ul>
+								<li id="chart_0" onclick="setCharDate('1398841200', '1398870300', this, true, true)"><span>1 dzień</span></li>
+								<li id="chart_1" onclick="setCharDate('-7 day', 'today 23:59:59', this, true, false)"><span>tydz.</span></li>
+				<li id="chart_1" onclick="setCharDate('-1 month', 'today', this, true, false)"><span>1 mies.</span></li>
+				<li id="chart_2" onclick="setCharDate('-3 month', 'today', this, true, false)"><span>3 mies.</span></li>
+				<li id="chart_3" onclick="setCharDate('-6 month', 'today', this, true, false)"><span>6 mies.</span></li>
+				<li id="chart_4" onclick="setCharDate('-1 year', 'today', this, true, false)"><span>rok</span></li>
+				<li id="chart_6" onclick="setCharDate('-100 year', 'today', this, true, false)"><span>od początku</span></li>
+				<li id="chart_99" onclick="jQuery('div.datatab').toggle('', '', this, true, false)"><span>więcej</span></li>
+			</ul>
+			
+			<div class="datatab dn">
+				<div class="dateForm cb">
+					<p><b>Wybierz przedział czasu:</b></p>
+					<ul class="analitics_date_wrapper">
+						<li class="fc1">od</li>
+						<li class="analitics_date_box"><input type="text" value="2014-02-02" class="analitics_date" name="od" id="chart_date_od"></li>
+						<li style="padding-left: 20px !important;" class="fc1">do</li>
+						<li class="analitics_date_box"><input type="text" value="2014-05-02" class="analitics_date" name="do" id="chart_date_do"></li>
+					</ul>
+					<br>
+					<a class="but but2 fr" href="#" onclick="return setCharDate('', '', jQuery('#chart_99'), true);">wyświetl</a>
+				</div>
+			</div>
+			<script type="text/javascript" src="http://static1.money.pl/j/wakacje/jquery.date_input.js"></script>
+			<script type="text/javascript">
+				jQuery("input#chart_date_od").date_input();
+				jQuery("input#chart_date_do").date_input();
+			</script>
+		</div> <!-- taby -->
+
+		<div class="intab" style="display:block">
+			<div id="placement_zoom"></div>
+						<script type="text/javascript">
+			if(typeof(jQuery.cookie("chart_big")) == "undefined")
+			{
+				var chartF='<div class="zoom1" id="zoom1"><a title="Powiększ wykres" class="glass" onclick="window.open(\'http://www.money.pl/u/data_window/?smb=VST\', \'\', \'scrollbars=1, resizable=0, height=600, width=1000\'); return false;" href="#">Powiększ wykres</a><a title="Zamknij" class="exit" onclick="bigClose(); return false;" href="#"></a></div>';
+				jQuery('#placement_zoom').html(chartF)
+			}
+			</script>
+						<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td><span>VISTULA GROUP</span></td>
+					<td><b>1,67</b></td>
+					<td><span id="change" class="gray">+0,00</span></td>
+				</tr>
+
+			</table>
+			<div id="chart_placement"></div>
+			<div id="chart_placement2"></div>
+						<form class="form" name="refresher" method="GET" action="">
+				<div class="refresher b0">
+					<input type="hidden" name="smb" value="VST">
+					<input type="hidden" name="ht" value="0">					<input type="checkbox" class="cin" checked="checked" name="refresh">
+					<span>Odświeżaj automatycznie co <input type="text" class="in" value="35" name="refresh_time"> sekund</span>
+					<input type="submit" value="Zmień" class="but but2" name="send">
+				</div>
+			</form>			
+						<div class="typ_wykresu" style=" margin:0 10px; border-top:1px solid #DEDEDE">
+				<span>wykres:</span>
+					<span id="chart_type_gfx" class="ico_radio on" onclick="setChartType('gfx')">GRAFICZNY</span>
+					<span id="chart_type_flash" class="ico_radio off" onclick="setChartType('flash')">INTERAKTYWNY</span>
+			</div>
+		</div> <!-- end pierwszy tab -->				
+	</div> <!-- end wykres -->
+		<div id="notowania_d">
+							<div class="wartosci">
+	<p class="upper">Vistula SA</p>
+	<table class="tabela">
+                        <tr>
+                            <td>Aktualny kurs</td>
+                            <td class="ar"><b>1,67</b></td>
+                        </tr>
+                        <tr>
+                            <td>Od</td>
+                            <td class="ar">2014-04-30</td>
+                        </tr>                        
+                        <tr>
+                            <td>Do</td>
+                                                        <td class="ar">2014-04-30 17:04:39</td>
+                                                    </tr>   
+                                             
+                        <tr>
+                            <td>Zmiana [%]</td>
+                            <td class="ar green"><b>+1,21</b></td>
+                        </tr>
+                        <tr>
+                            <td>Zmiana [zł]</td>
+                            <td class="ar gray"><b>+0,00</b></td>
+                        </tr>
+                                                <tr>
+                            <td>Poprzednie zakmnięcie</td>
+                            <td class="ar">1,67</td>
+                        </tr>
+                        <tr>
+                            <td>Otwarcie</td>
+                            <td class="ar">1,65</td>
+                        </tr>
+                        <tr>
+                            <td>Minimum [zł]</td>
+                            <td class="ar">1,64</td>
+                        </tr>
+                        <tr>
+                            <td>Minimum [%]</td>
+                            <td class="ar red">-1,80</td>
+                        </tr>
+                        <tr>
+                            <td>Maksimum [zł]</td>
+                            <td class="ar">1,67</td>
+                        </tr>
+                        <tr>
+                            <td>Maksimum [%]</td>
+                            <td class="ar gray">+0,00</td>
+                        </tr>                  
+                        <tr>
+                            <td>Wolumen</td>
+                            <td class="ar">56028</td>
+                        </tr>
+                        <tr>
+                            <td>Obroty [mln. zł]</td>
+                            <td class="ar">0,093</td>
+                        </tr>
+                                                                        
+                                                                    </table>
+</div>					</div>	
+</div>
+<script type="text/javascript">
+setCharDate('1398841200', '1398870300', jQuery('#chart_0'), false, true);
+</script>	</div> <!-- corner -->
+<div class="dostarcza pt0 pl10 b0 fl wauto">
+	Dane dostarcza: <a href="http://www.bdm.com.pl/" rel="nofollow" target="_blank"><img alt="BDM" src="http://static1.money.pl/i/gielda/dostarcza.png"></a>		
+</div>	
+<script type="text/javascript">
+	switchChart(0, false);
+</script>		</div>
+
+<div class="b650 box">
+	<div class="b270 fl">
+		<div class="b270 box">
+		<div class="hd inbox"><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,finanse.html">Wskaźniki: Vistula SA <em>(VST)</em></a></div>
+			<div class="corner box">
+			<table class="tabela tspolki">
+				<tr>
+					<td>Cena / Zysk</td>
+					<td class="ar bld">6,44</td>
+				</tr>
+				<tr>
+					<td>Cena / War. Księg.</td>
+					<td class="ar bld">0,71</td>
+				</tr>
+				<tr>
+					<td>Cena / przychody</td>
+					<td class="ar bld">0,73</td>
+				</tr>				
+				<tr>
+					<td>Wartość księgowa [mln.]</td>
+					<td class="ar bld">410,19</td>
+				</tr>
+				<tr>
+					<td>Kapitalizacja [mln.]</td>
+					<td class="ar bld">290,35</td>
+				</tr>	
+				<tr>
+					<td>Liczba akcji [mln.]</td>
+					<td class="ar bld">173,86</td>
+				</tr>										
+				<tr>
+					<td>Free float [%]</td>
+					<td class="ar bld">44,85</td>
+				</tr>										
+				<tr>
+					<td>ROA</td>
+					<td class="ar bld">7,27</td>
+				</tr>
+				<tr>
+					<td>ROE</td>
+					<td class="ar bld">12,23</td>
+				</tr>
+				<tr>
+
+					<td>ROS</td>
+					<td class="ar bld">11,33</td>
+				</tr>
+				<tr>
+					<td>Zadłużenie ogółem [%]</td>
+					<td class="ar bld">34,47</td>
+				</tr>												
+				<tr>
+					<td>Zadłużenie krótkoterminowe [%]</td>
+					<td class="ar bld">14,48</td>
+				</tr>	
+				<tr>
+					<td>Zadłużenie długoterminowe [%]</td>
+					<td class="ar bld">19,11</td>
+				</tr>	
+				<tr>
+					<td>Data sprawozdania</td>
+					<td class="ar bld">2013-12-31</td>
+				</tr>					
+			</table>	
+		</div>					
+</div>	</div>
+	<div class="b360 fr">
+		<div class="b370 box">
+			<div class="inbox">
+					<div class="hd"><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,artykuly,1.html">Wiadomości VST</a></div>
+
+		
+							
+							<ul class="zajawka">
+							<li> 
+									<a href="http://www.money.pl/gielda/wiadomosci/artykul/gielda;wyklucza;z;indeksow;16;spolek,210,0,1504722.html" title="Giełda wyklucza z indeksów 16 spółek" class="img"><img src="http://static1.money.pl/i/h/17/m20497.jpg" alt="Giełda wyklucza z indeksów 16 spółek" title="Giełda wyklucza z indeksów 16 spółek / fot: Money.pl/Tomasz Brankiewicz" /></a>
+								<div class="oh">
+					<h2>
+						<a href="http://www.money.pl/gielda/wiadomosci/artykul/gielda;wyklucza;z;indeksow;16;spolek,210,0,1504722.html" title="Giełda wyklucza z indeksów 16 spółek">Giełda wyklucza z indeksów 16 spółek</a>
+						<span class="imore">więcej</span>					</h2>
+					<p class="dn">Korekta wynika z metodologii indeksów giełdowych, zgodnie z którą nie mogą być w nich spółki zakwalifikowane do segmentu Lista Alertów.</p>				</div>
+			</li>
+	    							
+							    	</ul><ul class="lista">
+	    		<li>
+	    			<a href="http://www.money.pl/gielda/wiadomosci/artykul/vistula;chce;otworzyc;18;nowych;salonow,19,0,1500435.html" class="bld" title="Vistula chce otworzyć 18 nowych salonów">Vistula chce otworzyć 18 nowych salonów</a>
+	    		</li>
+	    							
+							    	<li>
+	    		<a href="http://www.money.pl/gielda/wiadomosci/artykul/szesc;spolek;z;gpw;z;potencjalem;na;wiosne,251,0,1497339.html" title="Sześć spółek z GPW  z potencjałem na wiosnę">Sześć spółek z GPW  z potencjałem na wiosnę</a>
+	    	</li>
+	    							
+							    	<li>
+	    		<a href="http://www.money.pl/gielda/wiadomosci/artykul/analitycy;podnosza;rekomendacje;dla;vistuli,182,0,1469622.html" title="Analitycy podnoszą rekomendację dla Vistuli">Analitycy podnoszą rekomendację dla Vistuli</a>
+	    	</li>
+	    							
+							    	<li>
+	    		<a href="http://www.money.pl/gielda/wiadomosci/artykul/wycena;spolki;z;gpw;w;gore;o;niemal;67;procent,111,0,1397871.html" title="Wycena spółki z GPW w górę o niemal 67 procent">Wycena spółki z GPW w górę o niemal 67 procent</a>
+	    	</li>
+	    		</ul>
+	
+		
+		
+			</div>
+		</div>
+		<div class="b370 box">
+			<div class="inbox">
+					<div class="hd"><a href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,emitent,1.html">Komunikaty VST</a></div>
+	<ul class="lista big">
+			<li><a href="http://www.money.pl/gielda/komunikaty/komunikat/VISTULA,VST,komunikaty;gieldowe,vistula;group;sa;skonsolidowane;przychody;ze;sprzedazy;osiagniete,310998.html">VISTULA GROUP SA skonsolidowane przychody ze sprzedaży osiągnięte <span class="nik">[2014-04-04 07:48]</span></a></li>
+			<li><a href="http://www.money.pl/gielda/komunikaty/komunikat/VISTULA,VST,komunikaty;gieldowe,vistula;group;sa;raport;okresowy;roczny;skonsolidowany;za;2013;rs,310078.html">VISTULA GROUP SA Raport okresowy roczny skonsolidowany za 2013 RS <span class="nik">[2014-03-20 22:30]</span></a></li>
+			<li><a href="http://www.money.pl/gielda/komunikaty/komunikat/VISTULA,VST,komunikaty;gieldowe,vistula;group;sa;raport;okresowy;roczny;za;2013;r,310076.html">VISTULA GROUP SA Raport okresowy roczny za 2013 R <span class="nik">[2014-03-20 22:26]</span></a></li>
+			<li><a href="http://www.money.pl/gielda/komunikaty/komunikat/VISTULA,VST,komunikaty;gieldowe,vistula;group;sa;skonsolidowane;przychody;ze;sprzedazy;osiagniete,309309.html">VISTULA GROUP SA skonsolidowane przychody ze sprzedaży osiągnięte <span class="nik">[2014-03-05 09:10]</span></a></li>
+		</ul>
+			</div>
+		</div>
+		<div class="b370 box">
+					<div class="hd inbox"><a href="http://www.money.pl/gielda/rekomendacje/rekomendacje,337,-1,1.html">Rekomendacje VST</a></div>
+	<div class="corner">
+		<table class="tabela rekomendacje">
+			<tbody>
+			<tr>
+				<th class="dlugosc">Instytucja</th>
+				<th class="al">Data<br />wydania</th>
+				<th class="al">Cena z dnia<br />wydania</th>
+				<th class="al">Cena<br />docelowa</th>
+				<th class="ar last">Rodzaj</th>
+			</tr>
+			
+				<tr>
+					<td class="al bld"><a href="http://www.money.pl/gielda/maklerskie/erste;securities;di,dom;inwestycyjny;erste;securities;polska;s;a,15.html">Erste Securities DI</a></td>
+					<td class="ar">2013-11-19</td>
+					<td class="ar">2,11</td>
+					<td class="ar">1,30</td>
+					<td class="ar last"><b class="red">Sprzedaj</b></td>
+				</tr>
+			
+				<tr>
+					<td class="al bld"><a href="http://www.money.pl/gielda/maklerskie/ing;securities,ing;securities;sa,2.html">ING Securities</a></td>
+					<td class="ar">2013-10-08</td>
+					<td class="ar">1,85</td>
+					<td class="ar">2,25</td>
+					<td class="ar last"><b class="green">Kupuj</b></td>
+				</tr>
+			
+				<tr>
+					<td class="al bld"><a href="http://www.money.pl/gielda/maklerskie/idmsa;dm,dom;maklerski;idmsa,22.html">IDMSA DM</a></td>
+					<td class="ar">2013-07-29</td>
+					<td class="ar">1,17</td>
+					<td class="ar">1,44</td>
+					<td class="ar last"><b class="green">Kupuj</b></td>
+				</tr>
+			
+				<tr>
+					<td class="al bld"><a href="http://www.money.pl/gielda/maklerskie/erste;securities;di,dom;inwestycyjny;erste;securities;polska;s;a,15.html">Erste Securities DI</a></td>
+					<td class="ar">2013-06-06</td>
+					<td class="ar">1,15</td>
+					<td class="ar">1,20</td>
+					<td class="ar last"><b class="green">Akumuluj</b></td>
+				</tr>
+						</tbody>
+		</table>
+	</div>
+		</div>					
+	</div>
+</div>	<script type="text/javascript">
+jQuery('.refresher input:text[name="refresh_time"]').val(60);
+
+		jQuery(function() {
+			window.setTimeout(function() { document.forms['redirect'].submit(); }, 60*1000);
+		});
+		jQuery('.refresher input:checkbox[name="refresh"]').attr('checked', 'checked');
+	</script>
+<form action="" method="post" name="redirect"></form>	</div> <!-- end left -->
+	
+	
+	<div class="mpl_right">	
+		<div class="b300 box"><div class="corner">	<div class="hd">Najpopularniejsze</div>
+
+		
+							
+							<ul class="zajawka">
+							<li> 
+									<a href="http://www.money.pl/gielda/spolka-dnia/artykul/kghm;niemal;po;100;zl;jaka;przyszlosc;przed;gigantem,22,0,1494038.html" title="KGHM niemal po 100 zł. Jaka przyszłość przed gigantem?" class="img"><img src="http://static1.money.pl/i/h/93/m300893.jpg" alt="KGHM niemal po 100 zł. Jaka przyszłość przed gigantem?" title="KGHM niemal po 100 zł. Jaka przyszłość przed gigantem? / fot: PAP/Jacek Bednarczyk" /></a>
+								<div class="oh">
+					<h2>
+						<a href="http://www.money.pl/gielda/spolka-dnia/artykul/kghm;niemal;po;100;zl;jaka;przyszlosc;przed;gigantem,22,0,1494038.html" title="KGHM niemal po 100 zł. Jaka przyszłość przed gigantem?">KGHM niemal po 100 zł. Jaka przyszłość przed gigantem?</a>
+						<span class="imore">więcej</span>					</h2>
+					<p class="dn">Na kurs akcji fatalnie wpływa cena miedzi na światowych rynkach.</p>				</div>
+			</li>
+	    							
+							    	</ul><ul class="lista">
+	    		<li>
+	    			<a href="http://www.money.pl/gielda/wiadomosci/artykul/interwencja;walutowa;bank;centralny;rosji;sprzedaje;10;mld;dolarow,178,0,1487794.html" class="bld" title="Interwencja walutowa. Bank centralny Rosji sprzedaje 10 mld dolarów">Interwencja walutowa. Bank centralny Rosji sprzedaje 10 mld dolarów</a>
+	    		</li>
+	    							
+							    	<li>
+	    		<a href="http://manager.money.pl/prosto-z-firm/artykul/zarzad;kghm;kupil;akcje;za;milion;mamy;wyjasnienie,216,0,1509848.html" title="Zarząd KGHM kupił akcje za milion. Mamy wyjaśnienie">Zarząd KGHM kupił akcje za milion. Mamy wyjaśnienie</a>
+	    	</li>
+	    		</ul>
+	
+		
+		
+</div></div>        <div class="rect_lbl"></div>
+        <div id="rect" class="rect">
+                <script type="text/javascript">
+    sas_noad = null;
+    sas_pageid='12901/94558';    // Page : Money.pl/gielda/podstrony
+    sas_formatid=5663;   // Format : rectangle 300x250
+    sas_target=setSasTarget('');    // Targeting
+    SmartAdServer(sas_pageid,sas_formatid,sas_target);
+</script>
+<noscript>
+    <a href="http://diff.smartadserver.com/call/pubjumpi/12901/94558/5663/M/1398983335/?">
+    <img src="http://diff.smartadserver.com/call/pubi/12901/94558/5663/M/1398983335/?" style="border:none;" alt="" /></a>
+</noscript>        </div>
+        <script type="text/javascript" src="http://static1.money.pl/j/rectangle_label.js"></script>
+		<script type="text/javascript" src="http://static1.money.pl/j/jquery.autocomplete_money_analytics.js"></script>
+					<div class="b300 box p_rel">
+				<div class="corner">
+					<div class="helper">
+						?
+						<div class="okno_txt">
+							<span class="intxt">
+								Zacznij wprowadzać nazwę interesującego Cie waloru
+							</span>
+						</div>
+					</div>
+					<div class="hd">Giełda na skróty</div> 
+					<form action="/d/gielda/walor/" class="form" method="post">
+						<input id="shortcut_symbol_cr" type="text" name="symbol" class="in in210 bg_select" />
+						<input  type="submit" name="#" class="but" value="Szukaj" />
+					</form>
+				</div>
+			</div>
+						<script type="text/javascript">
+				jQuery(function() {
+					jQuery('#shortcut_symbol_cr').autocompleteMoneyAnalytics({source_url: "/ajax/gielda/symbol/", multiple: false, min_length: 0});
+				});
+			</script>
+                    <div id="smart_22189_275432_11443">
+        <script type="text/javascript">
+//<![CDATA[
+      document.write('<scr'+'ipt src="http://diff.smartadserver.com/call/pubj/22189/275432/11443/M/'+(new Date()).getTime()+'?[countgo]" language="javascript"></scr'+'ipt>');
+//]]>
+</script>
+<noscript>
+<a href="http://diff.smartadserver.com/call/pubjumpi/22189/275432/11443/M/20140502002855/?" target="_blank"><img src="http://diff.smartadserver.com/call/pubi/22189/275432/11443/M/20140502002855/?" border="0" alt="" /></a>
+</noscript>
+</div>
+		<div class="rect"><div class="rect_lbl"></div>				<script type="text/javascript">
+					var googletag = googletag || {};
+					googletag.cmd = googletag.cmd || [];
+					(function() {
+						var gads = document.createElement('script');
+						gads.async = true;
+						gads.type = 'text/javascript';
+						var useSSL = 'https:' == document.location.protocol;
+						gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+						var node = document.getElementsByTagName('script')[0];
+						node.parentNode.insertBefore(gads, node);
+					})();
+				</script>
+							<div id="div-gpt-ad-5362caa794c60-1">
+					<script type="text/javascript">
+						googletag.cmd.push(function() {
+							googletag.pubads().collapseEmptyDivs();
+							googletag.pubads().display('/22683154/money.pl//gielda//spolki_gpw//P_300x250_P1',[300,250],'div-gpt-ad-5362caa794c60-1');
+						});
+					</script>
+				</div>
+			</div><div class="b300 box">
+	<div class="hd inbox"><a href="http://www.money.pl/gielda/spolki_gpw/">SPÓŁKI GPW</a></div>
+	<div class="taby taby2">
+		<ul>
+			<li class="sel" id="tab_forum" onclick="swTab('forum', spolkiTabs);"><span>Popularne<br />na forum</span></li>
+			<li id="tab_ostatnie" onclick="swTab('ostatnie', spolkiTabs);"><span>Ostatnio<br />oglądane</span></li>
+			<li id="tab_portfel" onclick="swTab('portfel', spolkiTabs);"><span>Mój<br />portfel</span></li>			
+		</ul>
+	</div>			
+	<div class="corner box undertab height150">	
+		<div style="display:block" id="box_forum">
+						
+		</div>
+		<div style="display:none" id="box_ostatnie">
+		 <table class="tabela tspolki">
+	<tr>  
+		<th class="dlugosc">Walor</th>
+		<th class="ar">Kurs</th>
+		<th class="ar">Zm.[%]</th>
+		<th class="ar last">Obrót<br />[mln]</th>
+	</tr>
+			<tr>
+			<td><a class="nazwa" href="http://www.money.pl/gielda/spolki_gpw/vistula;sa,vst,informacje.html">VISTULA GROUP</a></td>
+			<td class="ar"><b>1,67</b></td>
+			<td class="ar"><span class="r_up">+1,21</span></td>
+			<td class="ar last grey">0,09</td>
+		</tr>
+			<tr>
+			<td><a class="nazwa" href="http://www.money.pl/gielda/spolki_gpw/swissmed;sa,swd,informacje.html">SWISSMED CENTRUM ZDROWIA</a></td>
+			<td class="ar"><b>0,50</b></td>
+			<td class="ar"><span class="r_up">+4,17</span></td>
+			<td class="ar last grey">0,01</td>
+		</tr>
+			<tr>
+			<td><a class="nazwa" href="http://www.money.pl/gielda/spolki_gpw/komputronik;sa,kom,informacje.html">KOMPUTRONIK</a></td>
+			<td class="ar"><b>7,94</b></td>
+			<td class="ar"><span class="r_up">+1,66</span></td>
+			<td class="ar last grey">0,06</td>
+		</tr>
+	</table>
+			
+		</div>		
+		<div style="display:none" id="box_portfel">
+					<div class="opis">
+	W portfelu w Money.pl możesz śledzić notowania spółek, które Cię interesują. <br />
+	<a href="http://login.money.pl/" class="bld">Zaloguj się do Twojego portfela</a><br />
+	<a href="http://login.money.pl/rejestracja/" class="bld">Załóż portfel i obserwuj notowania</a> 
+</div>				
+		</div>		
+	</div>
+</div>
+<script type="text/javascript" src="http://static1.money.pl/j/jquery.cookies.js"></script>
+<script type="text/javascript">
+	var spolkiTabs = ['forum', 'ostatnie', 'portfel'];
+	function swTab(sSelectTab, aTabs) {
+		for(var i = 0; i < aTabs.length; i++) {
+	    var oSwitch = document.getElementById('tab_'+aTabs[i]);
+	    if(oSwitch) { oSwitch.className = ((aTabs[i] == sSelectTab) ? 'sel' : ''); }
+	    var oTab = document.getElementById('box_'+aTabs[i]);
+	    if(oTab) { oTab.style.display = ((aTabs[i] == sSelectTab) ? 'block' : 'none'); }
+	  }
+      try { jQuery.cookies.set('spolki_tab', sSelectTab, {path: '/', domain: '.money.pl', expiresAt: new Date(2021, 1, 1)}); } catch (err) {alert(err)}
+	  return false;
+	}	
+	var seltab = $j.cookies.get('spolki_tab') || false;
+	if(seltab)
+	{
+		swTab(seltab, spolkiTabs);
+	}
+</script><div class="b300"><div class="hd inbox"><a href="http://www.money.pl/gielda/gpw/statystyka/">Statystyka sesji</a></div><div class="corner box"><div class="hd dark">Największe Wzrosty</div> <table class="tabela tspolki">
+	<tr>  
+		<th class="dlugosc">Walor</th>
+		<th class="ar">Kurs</th>
+		<th class="ar">Zm. [%]</th>
+		<th class="ar last">Obrót [mln]</th>
+	</tr>
+			<tr>
+			<td><a class="nazwa" href="http://www.money.pl/gielda/spolki_gpw/pc;guard;sa,pcg,informacje.html">PC GUARD</a></td>
+			<td class="ar"><b>1,08</b></td>
+			<td class="ar"><span class="r_up">+14,89</span></td>
+			<td class="ar last grey">2,77</td>
+		</tr>
+			<tr>
+			<td><a class="nazwa" href="http://www.money.pl/gielda/spolki_gpw/k2;internet;sa,k2i,informacje.html">K2 INTERNET</a></td>
+			<td class="ar"><b>11,50</b></td>
+			<td class="ar"><span class="r_up">+11,65</span></td>
+			<td class="ar last grey">0,08</td>
+		</tr>
+			<tr>
+			<td><a class="nazwa" href="http://www.money.pl/gielda/spolki_gpw/ceramika;nowa;gala;sa,cng,informacje.html">CERAMIKA NOWA GALA</a></td>
+			<td class="ar"><b>1,48</b></td>
+			<td class="ar"><span class="r_up">+9,63</span></td>
+			<td class="ar last grey">0,01</td>
+		</tr>
+	</table>
+<div class="hd dark">Największe Spadki</div> <table class="tabela tspolki">
+	<tr>  
+		<th class="dlugosc">Walor</th>
+		<th class="ar">Kurs</th>
+		<th class="ar">Zm. [%]</th>
+		<th class="ar last">Obrót [mln]</th>
+	</tr>
+			<tr>
+			<td><a class="nazwa" href="http://www.money.pl/gielda/spolki_gpw/ursus;sa,urs,informacje.html">URSUS</a></td>
+			<td class="ar"><b>2,44</b></td>
+			<td class="ar"><span class="r_dn">-7,22</span></td>
+			<td class="ar last grey">0,91</td>
+		</tr>
+			<tr>
+			<td><a class="nazwa" href="http://www.money.pl/gielda/spolki_gpw/coal;energy;sa,cle,informacje.html">COAL ENERGY</a></td>
+			<td class="ar"><b>1,26</b></td>
+			<td class="ar"><span class="r_dn">-6,67</span></td>
+			<td class="ar last grey">0,15</td>
+		</tr>
+			<tr>
+			<td><a class="nazwa" href="http://www.money.pl/gielda/spolki_gpw/centrum;nowoczesnych;technologii;sa,cnt,informacje.html">CNT</a></td>
+			<td class="ar"><b>5,22</b></td>
+			<td class="ar"><span class="r_dn">-5,95</span></td>
+			<td class="ar last grey">0,00</td>
+		</tr>
+	</table>
+</div></div>			<div class="b300 box analizator">
+				<div class="corner special">
+					<div class="corner">
+						<div class="hd"><a href="http://www.money.pl/gielda/porownanie_spolek/tabela/">ANALIZATOR Znajdź  SPÓŁKĘ</a></div>
+						<form action="http://www.money.pl/gielda/porownanie_spolek/tabela/" method="post" class="form analizator">
+							<div>
+								<label>cena / zysk</label>
+								<select name="czm" class="sin in150">
+									<option value="0">dowolne</option>
+									<option value="5">poniżej 5</option>
+									<option value="10">poniżej 10</option>
+									<option value="15">poniżej 15</option>
+								</select>
+							</div>
+							<div>
+								<label>cena / wartość księgowa</label>
+								<select name="cwkm" class="sin in150">
+									<option value="0">dowolne</option>
+									<option value="0.8">poniżej 0,8</option>
+									<option value="1.0">poniżej 1,0</option>
+									<option value="1.2">poniżej 1,2</option>
+								</select>
+							</div>
+							<div>
+								<label>ROS</label>
+								<select name="rosmi" class="sin in150">
+									<option value="0">dowolne</option>
+									<option value="10">powyżej 10</option>
+									<option value="15">powyżej 15</option>
+									<option value="20">powyżej 20</option>
+								</select>
+							</div>
+							<div>
+								<label>&nbsp;</label>
+								<input  type="submit" name="#" class="but" value="Znajdź" />
+							</div>
+						</form>
+					</div>
+					<div class="ac"><a href="http://www.money.pl/gielda/porownanie_spolek/tabela/" class="more more1">WIĘCEJ KRYTERIÓW</a></div>
+				</div>
+			</div>
+		<div id="rect_bottom" class="onreklama1"><div style="text-align:center;" class="reklama"><script type="text/javascript">
+    sas_noad = null;
+    sas_pageid='12901/276397';    // Page : Money.pl/ssp
+    sas_formatid=17741;   // Format : btf_300x250 300x250
+    sas_target=setSasTarget('');    // Targeting
+    SmartAdServer(sas_pageid,sas_formatid,sas_target);
+</script>
+<noscript>
+    <a href="http://diff.smartadserver.com/call/pubjumpi/12901/276397/17741/S/1398983335/?">
+    <img src="http://diff.smartadserver.com/call/pubi/12901/276397/17741/S/1398983335/?" style="border:none;" alt="" /></a>
+</noscript>			</div></div>
+			<script type="text/javascript">
+			if(typeof sas_noad!="undefined" && sas_noad===true) {jQuery("#rect_bottom").removeClass("onreklama1");}
+            </script>
+	</div> <!-- end right -->
+	
+	
+	<div class="mpl_max">
+			</div> <!-- end max -->
+	
+	<div class="mpl_bottom">
+			</div> <!-- end stopka z linkami -->
+
+	
+        <div id="mnysky" style="top:0%;margin: 0 0 0 10px;">
+        <script type="text/javascript">
+    sas_noad = null;
+    sas_pageid='12901/94558';    // Page : Money.pl/gielda/podstrony
+    sas_formatid=5662;   // Format : skyscraper 120x600
+    sas_target=setSasTarget('');    // Targeting
+    SmartAdServer(sas_pageid,sas_formatid,sas_target);
+</script>
+<noscript>
+    <a href="http://diff.smartadserver.com/call/pubjumpi/12901/94558/5662/S/1398983335/?">
+    <img src="http://diff.smartadserver.com/call/pubi/12901/94558/5662/S/1398983335/?" style="border:none;" alt="" /></a>
+</noscript>        </div>
+            <script type="text/javascript">
+        /* <![CDATA[ */
+        (function(){try{var position={};var offset={};var isFixed=false;function init() {position = {top : jQuery('#rect').position().top + jQuery('#rect').height() + 10};jQuery('#mnysky').css({top: position.top });offset = {left : jQuery('#mnysky').offset().left,top:jQuery('#mnysky').offset().top - jQuery('#dzialy').height()};}jQuery(window).scroll(function () {var scrollTop = jQuery(window).scrollTop();if (scrollTop > offset.top) {if (!isFixed) {var left = offset.left - parseInt(jQuery('#mnysky').css('margin-left'));jQuery('#mnysky').css({position: "fixed", left: left, top: jQuery('#dzialy').height()});isFixed = true;}} else {if (isFixed) {jQuery('#mnysky').css({position: 'absolute', left: '100%', top: position.top});isFixed = false;}}});jQuery(window).resize(function () {jQuery('#mnysky').css({position: 'absolute', left: '100%',top: position.top});if (jQuery(window).width()>offset.left){if (isFixed) {offset.left = jQuery('#mnysky').offset().left;jQuery('#mnysky').css({position: 'fixed', left: offset.left});}}});init();jQuery(function() {init()});} catch (err) {}})();
+        /* ]]> */
+    </script>
+		 
+
+</div><!-- end manager -->
+
+<div id="mnu_bottom"></div>
+					<script type="text/javascript">
+					(function() {
+						var mb = document.createElement("script");
+						mb.type = "text/javascript";
+						mb.async = true;
+						mb.src = "http://static1.money.pl/j/menu/dcd1fd2114df5f019b9b3de863c05b3b_9259.js";
+						var s = document.getElementsByTagName("script")[0];
+						s.parentNode.insertBefore(mb, s);
+					})();
+					</script><div id="footer">
+<script type="text/javascript">
+
+var footerEnabled='foot_money';
+var prevLi=0;
+function footOn(idNew, li)
+{
+    //alert(li)
+    var toSet=document.getElementById(idNew);
+    var idOld=document.getElementById(footerEnabled);
+    idOld.style.display='none';
+    toSet.style.display='block';
+    if(prevLi)
+    {
+	prevLi.setAttribute("class", "");
+    }
+    prevLi=li;
+    li.setAttribute("class", "sel");
+    footerEnabled=idNew;
+}
+</script>
+<div class="box580">
+		<div class="box290">
+			<p><strong>&copy; 2014 Money.pl Sp. z o.o.</strong></p>
+			<div class="box140">
+				<ul>
+					<li><a onmousedown="FTR_gt(1);">O nas</a></li>
+					<li><a onmousedown="FTR_gt(2);">Centrum prasowe</a></li>
+					<li><a onmousedown="FTR_gt(3);">Reklama</a></li>
+					<li><a href="http://www.money.pl/inne/mapa/">Mapa serwisu</a></li>
+					<li><a onmousedown="FTR_gt(11);">Regulamin</a></li>
+					<li><a onmousedown="FTR_gt(6);">Praca w Money.pl</a></li>
+					<li><a href="http://www.money.pl/inne/polityka-prywatnosci/">Polityka prywatności</a></li>
+				</ul>
+			</div>
+
+			<div class="box140">
+				<ul>
+
+					<li><a onmousedown="FTR_gt(5);">Kontakt</a></li>
+					<li><a onmousedown="FTR_gt(9);">Pomoc</a></li>
+					<li><a href="http://www.money.pl/webmaster/">Dla webmasterów</a></li>
+					<li><a onmousedown="FTR_gt(8);">iMoney w Twoim iPhonie</a></li>
+					<li><a onmousedown="FTR_gt(7);">Wersja dla komórek</a></li>
+					<li><a onmousedown="FTR_gt(14);">RSS</a></li>
+					<li><a onmousedown="FTR_gt(16);">Akademia Money.pl</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box290">
+			<p><strong>Na skróty</strong></p>
+
+			<div class="box280">
+				<ul class="naskroty">
+					<li onmouseover="footOn('foot_money', this)">
+						<a href="http://www.money.pl/" class="">Portal finansowy</a>
+							<ul class="lista" id="foot_money">
+					            <li><a href="http://pogoda.money.pl">Pogoda</a></li>
+					            <li><a href="http://www.money.pl/gielda/indeksy_gpw/">GPW</a></li>
+					            <li><a href="http://www.money.pl/pieniadze/kurs/eur,978.html">Kurs Euro</a></li>
+					            <li><a href="http://www.money.pl/pieniadze/kurs/usd,787.html">Kurs Dolara</a></li>
+					            <li><a href="http://www.money.pl/rejestr-firm/">Rejestr Firm</a></li>
+					            <li><a href="http://www.money.pl/archiwum/raporty/">Raporty</a></li>
+					            <li><a href="http://www.money.pl/archiwum/wydarzenia/">Wydarzenia</a></li>
+							</ul>
+					</li>
+
+					<li onmouseover="footOn('foot_direct', this)"><a href="http://direct.money.pl/">Produkty finansowe</a>
+							<ul class="lista" id="foot_direct" style="display:none">
+					            <li><a href="http://direct.money.pl/kredytymieszkaniowe/">Kredyty mieszkaniowe</a></li>
+					            <li><a href="http://direct.money.pl/kredytygotowkowe/">Kredyty gotówkowe</a></li>
+					            <li><a href="http://direct.money.pl/kredytysamochodowe/">Kredyty samochodowe</a></li>
+					            <li><a href="http://direct.money.pl/kontaosobiste/">Konta osobiste</a></li>
+					            <li><a href="http://direct.money.pl/finanse-dla-firmy/">Konta firmowe</a></li>
+					            <li><a href="http://direct.money.pl/lokaty/">Lokaty</a></li>
+					            <li><a href="http://direct.money.pl/emerytury/">Emerytury</a></li>
+								<li><a href="http://direct.money.pl/kartykredytowe/">Karty kredytowe</a></li>
+					            <li><a href="http://direct.money.pl/funduszeinwestycyjne/">Fundusze inwestycyjne</a></li>
+					            <li><a href="http://direct.money.pl/ubezpieczenieauta/">Ubezpieczenia auta</a></li>
+					            <li><a href="http://direct.money.pl/pkobp/index.html">Oferta PKO BP</a></li>
+							</ul>
+					</li>
+					<li  onmouseover="footOn('foot_msp', this)"><a href="http://msp.money.pl/">Serwis dla firm</a>
+							<ul class="lista" id="foot_msp" style="display:none">
+					            <li><a href="http://msp.money.pl/wiadomosci/zakladam_firme/">Zakładam firmę</a></li>
+					            <li><a href="http://msp.money.pl/baza-firm/">Baza firm</a></li>
+					            <li><a href="http://www.msp.money.pl/akty_prawne/dzienniki_ustaw/">Dzienniki ustaw </a></li>
+					            <li><a href="http://www.msp.money.pl/znajdz_adres/urzedy_skarbowe/">Urzędy skarbowe</a></li>
+								<li><a href="http://www.msp.money.pl/znajdz_adres/oddzialy_zus/">ZUS</a>, <a href="http://www.msp.money.pl/dokumenty_i_formularze/pit/">PIT-y</a></li>
+					            <li><a href="http://www.msp.money.pl/kalkulatory_i_wskazniki/wskazniki/ryczalt_pojazdy/">Ryczałty </a></li>
+					            <li><a href="http://www.msp.money.pl/akty_prawne/kodeks_pracy/">Kodeks pracy</a></li>
+					            <li><a href="http://www.msp.money.pl/dokumenty_i_formularze/wzory_umow/">Umowa o pracę</a></li>
+						        <li><a href="http://www.msp.money.pl/kalkulatory_i_wskazniki/wskazniki/ubezpieczenia/">Składki na ZUS</a></li>
+							    <li><a href="http://msp.money.pl/wzory-dokumentow/umowy,39,wzory_dokumentow.html">Umowy</a></li>
+							    <li><a href="http://www.favore.pl">Usługi</a> - Favore.pl</li>
+					            <li><a href="http://katalog.money.pl">Katalog stron</a></li>
+							</ul>
+					</li>
+
+					<li  onmouseover="footOn('foot_dom', this)"><a href="http://dom.money.pl/">Nieruchomości</a>
+							<ul class="lista" id="foot_dom" style="display:none">
+					            <li><a href="http://dom.money.pl/nieruchomosci,sprzedaz,mieszkan,0.html" title="Mieszkania">Mieszkania</a> </li>
+					            <li><a href="http://dom.money.pl/nieruchomosci,sprzedaz,domow,0.html" title="Domy">Domy</a></li>
+					            <li><a href="http://dom.money.pl/nieruchomosci,sprzedaz,dzialek,0.html">Działki</a></li>
+					            <li><a href="http://dom.money.pl/nieruchomosci,sprzedaz,lokali,0.html">Lokale użytkowe</a></li>
+					            <li><a href="http://dom.money.pl/projekty_domow/" title="Projekty domów">Projekty domów</a></li>
+					            <li><a href="http://dom.money.pl/budownictwo/" title="Budownictwo">Budownictwo</a></li>
+							</ul>
+					</li>
+					<li  onmouseover="footOn('foot_moto', this)"><a href="http://moto.money.pl/">Motoryzacja</a>
+							<ul class="lista" id="foot_moto" style="display:none">
+					            <li><a href="http://moto.money.pl/nowe/">Nowe samochody </a></li>
+					            <li><a href="http://autogielda.money.pl/">Autogiełda </a></li>
+					            <li><a href="http://moto.money.pl/wiadomosci/flota/">Flota</a>, <a href="http://opony.money.pl/">Opony</a></li>
+					            <li><a href="http://moto.money.pl/cennik_aut/">Ceny aut używanych</a></li>
+					            <li><a href="http://moto.money.pl/galerie_aut/">Galerie</a></li>
+					            <li><a href="http://moto.money.pl/opinie/">Opinie</a></li>
+					            <li><a href="http://moto.money.pl/taryfikator-mandatow/">Taryfikator mandatów</a></li>
+								<li><a href="http://moto.money.pl/wyszukiwarka/">Najczęsciej szukane ogłoszenia</a></li>
+							</ul>
+					</li>
+					<li onmouseover="footOn('foot_kalk', this)"><a href="http://www.money.pl/kalkulatory/">Kalkulatory</a>
+					    
+							<ul class="lista" id="foot_kalk" style="display:none">
+							    <li><a href="http://www.money.pl/podatki/kalkulatory/plac/">Kalkulator wynagrodzeń</a></li>
+							    <li><a href="http://www.money.pl/banki/kalkulatory/kredytowy/">Kalkulator kredytowy</a></li>
+							    <li><a href="http://msp.money.pl/kalkulatory_i_wskazniki/kalkulatory/odsetek/">Kalkulator odsetek</a></li>
+							    <li><a href="http://msp.money.pl/kalkulatory_i_wskazniki/wskazniki/odsetki-ustawowe/">Kalkulator odsetek ustawowych</a></li>
+							    <li><a href="http://www.money.pl/wyszukiwarka/kalkulator+oc,s.html">Kalkulator OC</a></li>
+							    <li><a href="http://direct.money.pl/kalkulatory/kalkulator-zdolnosci-kredytowej/">Kalkulator zdolności kredytowej</a></li>
+							</ul>
+					</li>
+					<li  onmouseover="footOn('foot_prawo', this)"><a href="http://prawo.money.pl/">Prawo</a>
+							<ul class="lista" id="foot_prawo" style="display:none">
+					            <li><a href="http://prawo.money.pl/porady-prawne/porady/" title="Porady prawne">Porady prawne</a></li>
+						        <li><a href="http://prawo.money.pl/porady-prawne/porady/postepowanie-karne/" title="Postępowanie karne">Postępowanie karne</a></li>
+						        <li><a href="http://prawo.money.pl/porady-prawne/porady/prawo-cywilne/" title="Prawo cywilne">Prawo cywilne</a></li>
+					            <li><a href="http://prawo.money.pl/porady-prawne/porady/prawo-handlowe/" title="Prawo handlowe">Prawo handlowe</a></li>
+					            <li><a href="http://prawo.money.pl/porady-prawne/porady/prawo-gospodarcze/" title="Prawo gospodarcze">Prawo gospodarcze</a></li>
+					            <li><a href="http://prawo.money.pl/porady-prawne/porady/prawo-podatkowe/" title="Prawo podatkowe">Prawo podatkowe</a></li>
+					            <li><a href="http://prawo.money.pl/porady-prawne/porady/prawo-pracy/" title="Prawo pracy">Prawo pracy</a></li>
+					            <li><a href="http://prawo.money.pl/porady-prawne/porady/prawo-rodzinne/" title="Prawo rodzinne">Prawo rodzinne</a></li>
+					            <li><a href="http://prawo.money.pl/porady-prawne/porady/prawo-spadkowe/" title="Prawo spadkowe">Prawo spadkowe</a></li>
+						        <li><a href="http://prawo.money.pl/bazy-teleadresowe/notariusze/" title="Notariusze">Notariusze</a></li>
+					            <li><a href="http://prawo.money.pl/orzecznictwo/trybunal-konstytucyjny/" title="Orzecznictwo Trybunału Konstytucyjnego">Orzecznictwo Trybunału Konstytucyjnego</a></li>
+						        <li><a href="http://prawo.money.pl/orzecznictwo/sad-najwyzszy/" title="Orzecznictwo Sądu Najwyższego">Orzecznictwo Sądu Najwyższego</a></li>
+						        <li><a href="http://prawo.money.pl/bazy-teleadresowe/tlumacze/" title="Tłumacze przysięgli">Tłumacze przysięgli</a></li>
+							</ul>
+					</li>
+					<li  onmouseover="footOn('foot_praca', this)"><a href="http://praca.money.pl">Praca</a>
+							<ul class="lista" id="foot_praca" style="display:none">
+					            <li><a href="http://praca.money.pl/listmotywacyjny/">List motywacyjny</a></li>
+					            <li><a href="http://praca.money.pl/poradnik-cv/">CV</a></li>
+					            <li><a href="http://praca.money.pl/praca-w-domu/">Praca w domu</a></li>
+					            <li><a href="http://praca.money.pl/praca_za_granica/">Praca za granicą</a></li>
+					            <li><a href="http://praca.money.pl/warszawa,miasto,0.html?miasto=Warszawa">Praca Warszawa</a></li>
+					            <li><a href="http://praca.money.pl/wroclaw,miasto,0.html?miasto=Wroc%B3aw">Praca Wrocław</a></li>
+					            <li><a href="http://praca.money.pl/bielsko-biala,miasto,0.html?miasto=Bielsko-Bia%B3a">Praca Bielsko</a></li>
+					            <li><a href="http://praca.money.pl/urzedy_pracy/">Urząd pracy</a></li>
+							</ul>
+					</li>
+					<li onmouseover="footOn('foot_archiwum', this)"><a href="http://www.money.pl/archiwum/raporty/">Archiwum wiadomości</a>
+						<ul class="lista" id="foot_archiwum" style="display:none">
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="box400">
+
+		<div class="box290">
+
+<link rel="stylesheet" type="text/css" media="screen" href="http://static1.money.pl/s/footer_linki.css?d9a8a" />
+<style>
+.flogo9{background:url("http://static1.money.pl/i/footer/footer-logos.gif") no-repeat scroll -858px 100% transparent;display:block;float:right;height:34px;margin-top:1px;position:relative;right:16px;text-indent:-999em;width:102px}
+.box110 * {color:#4268a6 !important}
+</style>
+
+			<div id="foo_logos_pion">
+
+				<div class="foo_max">
+                    <div class="flogo flogo1">
+                                                <span onmousedown="FTR_gt(1, 'ft_gfx');">Money.pl</span>
+                    </div>
+                                    <div class="flogo flogo4">
+                                                <span onmousedown="FTR_gt(4, 'ft_gfx');">favore.pl</span>
+                    </div>
+                                    <div class="flogo flogo8">
+                                                <span onmousedown="FTR_gt(8, 'ft_gfx');">eprawnik.pl</span>
+                    </div>
+                                    <div class="flogo flogo5">
+                                                <span onmousedown="FTR_gt(5, 'ft_gfx');">iwoman.pl</span>
+                    </div>
+                                    <div class="flogo flogo6">
+                                                <span onmousedown="FTR_gt(6, 'ft_gfx');">interaktywnie.com</span>
+                    </div>
+                                    <div class="flogo flogo7">
+                                                    <ul class="lista">
+                                                                    <li><a href="http://platine.pl/finanse-i-nieruchomosci/najdrozsze/P/strona,1.html">najkosztowniejsze</a></li>
+                                                            </ul>
+                                                <span onmousedown="FTR_gt(7, 'ft_gfx');">platine.pl</span>
+                    </div>
+                                    <div class="flogo flogo3">
+                                                    <ul class="lista">
+                                                                    <li><a href="http://menstream.pl/styl/moda-meska/">moda męska</a></li>
+                                                                    <li><a href="http://menstream.pl/sporty-walki/gala,ksw-25---khalidov-vs-sakurai,569.html">khalidov sakurai na żywo</a></li>
+                                                            </ul>
+                                                <span onmousedown="FTR_gt(3, 'ft_gfx');">menstream.pl</span>
+                    </div>
+                                    <div class="flogo flogo2">
+                                                <span onmousedown="FTR_gt(2, 'ft_gfx');">bblog.pl</span>
+                    </div>
+                                    <div class="flogo flogo10">
+                                                <span onmousedown="FTR_gt(10, 'ft_gfx');">businessclick.com</span>
+                    </div>
+                                    <div class="flogo flogo14">
+                                                    <ul class="lista">
+                                                                    <li><a href="http://marketmoney.pl/kantor-internetowy/">Kantor Internetowy</a></li>
+                                                            </ul>
+                                                <span onmousedown="FTR_gt(11, 'ft_gfx');">marketmoney.pl</span>
+                    </div>
+                                    <div class="flogo flogo15">
+                                                <span onmousedown="FTR_gt(15, 'ft_gfx');">mymoney.pl</span>
+                    </div>
+                                    <div class="flogo flogo16">
+                                                <span onmousedown="FTR_gt(16, 'ft_gfx');">money2money.pl</span>
+                    </div>
+                				    
+				
+				</div>
+			</div> <!-- foo_max pion -->
+		</div>
+
+		<div class="box110">
+		    <a href="http://ban.pl" class="ban">Monetized by<br /><span class="flogo9" title="reklama online">ban.pl</span></a>
+		</div>
+
+	</div></div>
+</div>
+<script>
+jQuery('.corner').each(function(i, e) {
+jQuery(this).append('<span class="corners ctl"></span>');
+jQuery(this).append('<span class="corners ctr"></span>');
+jQuery(this).append('<span class="corners cbl"></span>');
+jQuery(this).append('<span class="corners cbr"></span>');
+});
+</script>
+
+<script type='text/javascript' src="http://static1.money.pl/j/lead.js?v=3"></script>
+
+<!-- script type="text/javascript" src="http://static1.interaktywnie.com/i/ankiety/script/ankieta_money.js?t=2331638"></script -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1&appId=182203895260139";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><script type="text/javascript">
+    sas_noad = null;
+    sas_pageid='12901/94558';    // Page : Money.pl/gielda/podstrony
+    sas_formatid=5670;   // Format : DHTML 1x1
+    sas_target='';    // Targeting
+    SmartAdServer(sas_pageid,sas_formatid,sas_target);
+</script>
+<noscript>
+    <a href="http://diff.smartadserver.com/call/pubjumpi/12901/94558/5670/S/1398983335/?">
+    <img src="http://diff.smartadserver.com/call/pubi/12901/94558/5670/S/1398983335/?" style="border:none;" alt="" /></a>
+</noscript><script src="http://www.money.pl/d/reklama/karteczka.php?id=6"></script><script type="text/javascript" src="http://ads.businessclick.com/master_1.1/"></script>    <!-- Google Code for money.pl -->
+    <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+    <script type="text/javascript">
+            /* <![CDATA[ */
+            var google_conversion_id = 1009125387;
+            var google_conversion_label = "0igsCM2rzQIQi5CY4QM";
+            var google_custom_params = window.google_tag_params;
+            var google_remarketing_only = true;
+            /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+            </script>
+            <noscript>
+            <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1009125387/?value=0&amp;label=0igsCM2rzQIQi5CY4QM&amp;guid=ON&amp;script=0"/>
+            </div>
+            </noscript>
+    		  </body>
+</html>
