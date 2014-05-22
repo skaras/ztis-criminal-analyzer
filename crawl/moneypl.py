@@ -2,62 +2,77 @@
 # -*- coding: utf8 -*-
 
 
-import requests, codecs
+import requests, codecs, os.path
 
 from lxml import etree
+import lxml
 
+from session    import Session
 
 
 class MoneyPL(object):
 
     def __init__(self):
-        # Obiekt Session, używany przy kolejnych zapytaniach. Potrzebny, żeby
-        # raz ustawić nagłówki i nie przekazywać ich do każdego zapytania
-        # osobno.
-        self.session = requests.Session()
-        self.session.headers.update({
-            'Accept'            : 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Encoding'   : 'gzip, deflate',
-            'Accept-Language'   : 'pl,en-US;q=0.7,en;q=0.3',
-            'Cache-Control'     : 'max-age=0',
-            'Connection'        : 'keep-alive',
-            #'Cookie'            : 'krs_fk45=h5mfc4oblmd1e1nokkpu4694e5; krs_cookie_accepted=true',
-            #'DNT'               : '1',
-            'Host'              : 'www.krs-online.com.pl',
-            #'Referer'           : 'http://www.krs-online.com.pl/muzeum-slaska-opolskiego-krs-1260077.html',
-            'User-Agent'        : 'Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0'
-            })
-
-        # Obiekt parsera, różny od domyślnego tylko w tym, że nie przewraca się
-        # na błędach. Przestrzeń nazw dla XML'i przechowujących strony HTTP.
-        self.parser = etree.XMLParser(recover=True, encoding = 'iso-8859-2')
-        self.xml_ns = {'ns': 'http://www.w3.org/1999/xhtml'}
+        self.session = Session(encoding = 'iso-8859-2')
 
 
 
-    ## Parsuje stronę wyników wyszukiwania KRS'u. Dostaje surowy tekst HTML,
-    ## zwraca linki do podstron, które są rezultatem wyszukania.
-    #def _parseSearchResults(self, text):
-    #    document = etree.fromstring(text, parser = self.parser)
 
-    #    links = document.findall(".//ns:div[@id='main']/ns:p/ns:a",\
-    #            namespaces = self.xml_ns)
-
-    #    result = []
-    #    for link in links:
-    #        result.append('http://www.krs-online.com.pl/{}'.format(link.get('href')))
-    #    return result
+    def cache_exists(self, cache_file):
+        return os.path.isfile(cache_file)
 
 
+    def cache_read(self, cache_file):
+        with codecs.open(cache_file, 'r', 'utf8') as src:
+            return [line.strip() for line in src.readlines()]
 
-    ## Szukanie stron z informacjami o podmiotach wg NIP'u. Zwraca listę linków
-    ## z wynikami wyszukania.
-    #def searchTaxID(self, nip):
-    #    r = self.session.get('http://www.krs-online.com.pl/',
-    #        params = {'p': 6, 'look': nip})
-    #    r.raise_for_status()
 
-    #    return self._parseSearchResults(r.text)
+    def cache_write(self, cache_file, lines):
+        with codecs.open(cache_file, 'w', 'utf8') as sink:
+            for line in lines:
+                sink.write('{}\n'.format(line))
+
+
+
+
+    def get_sectors_list(self):
+        cache_file = './cache/sectors_list'
+        if self.cache_exists(cache_file):
+            return self.cache_read(cache_file)
+
+        sectors_site    = 'http://www.money.pl/gielda/spolki_gpw/'
+        sectors_anchors = ".//li[@class='zwin']/a"
+        result = []
+
+        sectors_site    = self.session.get_site(sectors_site)
+        sectors_anchors = sectors_site.findall(sectors_anchors)
+
+        for anchor in sectors_anchors:
+            result.append( anchor.get('href') )
+
+        self.cache_write(cache_file, result)
+        return result
+
+        
+    def get_companies_list(self):
+        cache_file = './cache/companies_list'
+        if self.cache_exists(cache_file):
+            return self.cache_read(cache_file)
+
+        companies_anchors_path = ".//div[@class='box lista_for']/ul/li/ul/li/a"
+        result = []
+
+        for sector_site in self.get_sectors_list():
+            #print(u'Ściągam: {}'.format(sector_site))
+            sector_site         = self.session.get_site(sector_site)
+            companies_anchors   = sector_site.findall(companies_anchors_path)
+
+            for anchor in companies_anchors:
+                result.append( anchor.get('href') )
+
+        self.cache_write(cache_file, result)
+        return result
+
 
 
 
@@ -97,17 +112,19 @@ class MoneyPL(object):
             result.update(self._parseTable(table))
         return result
 
+    def parse_entity_site(self, address):
+        # Tak to wygląda testowo:
+        site = None
+        with codecs.open('./moneypl_entity_site', 'r', 'iso-8859-2') as src:
+            site = self.session.clean(src.read())
+            site = self.session.parse(site)
 
+        # Tak to powinno wyglądać:
+        #site = self.session.get_site(address)
 
-    # Wyciąga informacje ze strony jednego podmiotu. Dostaje adres strony,
-    # zwraca słownik danych.
-    def extractEntityData(self, address):
-        r = self.session.get(address)
-        r.raise_for_status()
-
-        #document = etree.fromstring(r.text, parser = self.parser)
-        return self._parseEntitySite(r.text)
-
+        print('Site: |{}|'.format(site))
+        elem = site.findall(".//div[@id='notowania_d']")
+        print('Elem: |{}|'.format(lxml.etree.tostring(elem[0])))
 
 
 # Przykład użycia klasy MoneyPL.
@@ -119,17 +136,8 @@ def example():
 def main():
     money = MoneyPL()
 
-    # Testowe parsowanie tekstu strony z pliku.
-    #with codecs.open('site', 'r', 'utf8') as src:
-    #    return krs._parseSearchResults(srd.read())
-
-
-    # Testowe wyciąganie danych ze strony w pliku.
-    with codecs.open('./moneypl_entity_site', 'r', 'iso-8859-2') as src:
-        tabs = money._parseEntitySite(src.read())
-
-        for k,v in tabs.iteritems():
-            print(u'{} -> {}'.format(k,v))
+    #money.parse_entity_site('whatever')
+    money.get_companies_list()
 
 
 if __name__ == '__main__':
