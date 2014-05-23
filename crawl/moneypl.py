@@ -2,12 +2,14 @@
 # -*- coding: utf8 -*-
 
 
-import requests, codecs, os.path
+import requests, codecs, os.path, sys
 
 from lxml import etree
 import lxml
 
 from session    import Session
+
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
 class Employment(object):
     def __init__(self, year, employment):
@@ -102,7 +104,7 @@ class CompanySite(object):
         
         if header == None or header.text == None:
             return None
-
+        
         print(u'Analyzed header: {}'.format(lxml.etree.tostring(header)))
         h = header.text.lower().strip()
         print(u'Returned header: {}'.format(h))
