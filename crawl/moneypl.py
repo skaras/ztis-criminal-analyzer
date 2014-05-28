@@ -2,12 +2,16 @@
 # -*- coding: utf8 -*-
 
 
-import requests, codecs, os.path
+import requests, codecs, os.path, sys
 
 from lxml import etree
 import lxml
 
 from session    import Session
+
+
+
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
 
 
