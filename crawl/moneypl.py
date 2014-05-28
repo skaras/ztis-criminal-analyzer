@@ -139,8 +139,8 @@ class CompanySite(object):
             if table is not None:
                 break
         else:
-            print('No table was found for div element on site {}.'
-                    .format(self.address))
+            #print('No table was found for div element on site {}.'
+            #        .format(self.address))
             return None
 
         table = self.extract_table_content( table )
@@ -367,9 +367,36 @@ class MoneyPL(object):
         return result
 
 
+    def get_companies(self):
+        for company_address in self.get_companies_list():
+            yield CompanySite(self.session, company_address)
+
+
+
 # Przykład użycia klasy MoneyPL.
 def example():
-    pass
+    money = MoneyPL()
+
+    for company in money.get_companies():
+        # company to obiekt CompanySite
+
+        details, employment, board = company.get_details()
+
+        print('Details:')
+        for info in details: print(info)
+
+        print('Employment:')
+        for info in employment: print(info)
+            
+        print('Board:')
+        for info in board: print(info)
+
+
+        finances = company.get_finances()
+        print(u'Finances:')
+        for info in finances: print(info)
+
+        break # inaczej pętla będzie leciała dość długo...
 
 
 
@@ -387,5 +414,6 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    #main()
+    example()
 
