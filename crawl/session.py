@@ -69,3 +69,18 @@ class Session(object):
         return text
 
 
+
+    def post(self, address, params = {}):
+        response = self.session.post(address, data = params)
+        response.raise_for_status()
+        return response.text
+
+
+    def post_to_site(self, address, params = {}):
+        text = self.post(address, params)
+        text = self.clean(text)
+        text = self.parse(text)
+        return text
+
+
+
