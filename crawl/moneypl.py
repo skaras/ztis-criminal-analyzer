@@ -9,36 +9,35 @@ import lxml
 
 from session    import Session
 
-class Employment(object):
-    def __init__(self, year, employment):
-        self.year       = year
-        self.employment = employment
 
 
-class BoardMember(object):
-    def __init__(self, name, function, year):
-        self.name       = name,
-        self.function   = function,
-        self.year       = year
+# http://code.activestate.com/recipes/410692/
+# This class provides the functionality we want. You only need to look at
+# this if you want to know how this works. It only needs to be defined
+# once, no need to muck around with its internals.
+class switch(object):
+    def __init__(self, value):
+        self.value = value
+        self.fall = False
 
+    def __iter__(self):
+        """Return the match method once, then stop"""
+        yield self.match
+        raise StopIteration
+    
+    def match(self, *args):
+        """Indicate whether or not to enter a case suite"""
+        if self.fall or not args:
+            return True
+        elif self.value in args: # changed for v1.5, see below
+            self.fall = True
+            return True
+        else:
+            return False
 
-class Details(object):
-    def __init__(self, 
-            name        = None, 
-            address     = None, 
-            nip         = None,
-            regon       = None,
-            krs         = None,
-            employment  = None,
-            board       = None):
-
-        self.name       = name
-        self.address    = address
-        self.nip        = nip
-        self.regon      = regon
-        self.krs        = krs
-        self.employment = employment
-        self.board      = board
+############################################
+############################################
+############################################
 
 
 
@@ -46,10 +45,11 @@ class CompanySite(object):
 
     path_section_anchors = ".//div[@class='taby taby3 bb1']/ul/li/span/a"
 
-    path_data_divisions  = ".//div[@class='b660 box']"
-    path_data_div_header = "./div[@class='hd inbox']"
-    path_data_div_table  = "./div/table[@class='tabela tlo_biel']"
-    path_data_div_btable = "./div/table[@class='tabela big tlo_biel']"
+    path_data_divs      = ".//div[@class='b660 box']"
+    path_data_header    = "./div[@class='hd inbox']"
+    path_data_table     = "./div/table[@class='tabela tlo_biel']"
+    path_data_big_table = "./div/table[@class='tabela big tlo_biel']"
+    path_data_big_tables= "./div/table[@class='tabela big tlo_biel ']"
 
 
     def __init__(self, session, address):
@@ -81,9 +81,23 @@ class CompanySite(object):
                 raise RuntimeError('One of the subsites was not found on {}.'
                         .format(self.address))
 
-        self.details = None
-        self.finances = None
+        self.details    = None
+        self.employment = None
+        self.board      = None
+        self.finances   = None
 
+
+
+    def extract_data_header(self, div_elem):
+        header = div_elem.find( CompanySite.path_data_header )
+        
+        if header == None or header.text == None:
+            return None
+
+        #print(u'Analyzed header: {}'.format(lxml.etree.tostring(header)))
+        h = header.text.lower().strip()
+        #print(u'Returned header: {}'.format(h))
+        return h
 
 
     def parse_table(self, table_elem):
@@ -97,61 +111,106 @@ class CompanySite(object):
         return data
 
 
-    def extract_data_div_header(self, div_elem):
-        header = div_elem.find( CompanySite.path_data_div_header )
-        
-        if header == None or header.text == None:
+    def extract_table_content(self, table_elem):
+        t_body = table_elem.find( 'tbody' )
+
+        if t_body is not None:
+            return t_body
+        else:
+            t_header = table_elem.find( 'thead' )
+            if t_header != None:
+                table_elem.remove( t_header )
+
+            return table_elem
+                        
+
+    def extract_data_table(self, div_elem):
+        table = None
+        for path in [ \
+                CompanySite.path_data_table,\
+                CompanySite.path_data_big_table,\
+                CompanySite.path_data_big_tables]:
+
+            table = div_elem.find( path )
+            if table is not None:
+                break
+        else:
+            print('No table was found for div element on site {}.'
+                    .format(self.address))
             return None
 
-        print(u'Analyzed header: {}'.format(lxml.etree.tostring(header)))
-        h = header.text.lower().strip()
-        print(u'Returned header: {}'.format(h))
-        return h
-
-
-    def extract_data_div_table(self, div_elem):
-        table = div_elem.find( CompanySite.path_data_div_table )
-        if table == None:
-            table = div_elem.find( CompanySite.path_data_div_btable )
-
-        # TODO tabela mała czasem ma thead, czasem nie, tbody - nigdy
-        # table big ma thead i tbody, chyba zawsze...
-
-        if table == None: return None
+        table = self.extract_table_content( table )
 
         return self.parse_table(table)
 
 
-    def get_details(self):
-        if self.details != None:
-            return self.details
 
-        self.details = Details()
+    def parse_details_table(self, table):
+        table_data = []
+
+        for row in table:
+            key = row[0].lower()
+            val = row[1]
+            
+            for case in switch(key):
+                if 'nazwa' in key:
+                    table_data.append( ('nazwa', val) )
+                    break
+                if case('nip'):
+                    table_data.append( ('nip', val.replace('-','')) )
+                    break
+                if case('regon'):
+                    table_data.append( ('regon', val) )
+                    break
+                if case('prezes'):
+                    table_data.append( ('prezes', val) )
+                    break
+                if case('ekd'):
+                    table_data.append( ('ekd', val) )
+                    break
+                if case('www'):
+                    table_data.append( ('www', val) )
+                    break
+                if case('krs'):
+                    table_data.append( ('krs', val) )
+                    break
+
+        return table_data
+
+
+    def get_details(self):
+        #print(u'Site: {}'.format(self.address))
+        if self.details is not None:
+            return (self.details, self.employment, self.board)
 
         data_divisions =\
-                self.site_about.findall( CompanySite.path_data_divisions )
+                self.site_about.findall( CompanySite.path_data_divs )
 
         for div in data_divisions:
-            header = self.extract_data_div_header(div)
-            table  = self.extract_data_div_table(div)
+            header = self.extract_data_header(div)
+            table  = self.extract_data_table(div)
 
             if header == None or table == None:
                 continue
 
-            print(u'Header: {}'.format(header))
+            #print(u'Header: {}'.format(header))
 
             # szczegółowe informacje
             if 'szczeg' in header:
-                print(u'Szczegóły:{}\n'.format(table))
+                self.details = self.parse_details_table(table)
+                #print(u'Szczegóły:{}\n'.format(details))
 
             # dane o zatrudnieniu
             if 'zatrudnienie' in header:
-                print(u'Zatrudnienie:\n{}'.format( table ))
+                self.employment = table
+                #print(u'Zatrudnienie:\n{}'.format( table ))
 
             # członkowie zarządu
             if 'ludzie' in header:
-                print(u'Zarząd:\n{}'.format( table ))
+                self.board = table
+                #print(u'Zarząd:\n{}'.format( table ))
 
+        return (self.details, self.employment, self.board)
 
 
 
@@ -223,59 +282,6 @@ class MoneyPL(object):
         return result
 
 
-
-
-    ## Parsuje jedną tabelę ze strony podmiotu. Dostaje obiekt '_Element'
-    ## odpowiadający tabeli, zwraca słownik znalezionych danych (jeśli tabela
-    ## miała dwie kolumny). Tu znajdują się też rozpoznania, czy tabela w ogóle
-    ## zawiera interesujące dane.
-    ## TODO usuwanie niealfanumerycznych znaków z kluczy??
-    #def _parseTable(self, table_elem):
-    #    data = {}
-
-    #    for row in table_elem:
-    #        cells = row.getchildren()
-    #        print('Children: {}'.format([c.text for c in cells]))
-    #        if len(cells) == 2:
-    #            key = cells[0].text
-    #            val = cells[1].text
-    #            if key and val:
-    #                key = key.lower().strip() #TODO zestaw znaków do usunięcia
-    #                data[key] = val
-    #    return data
-
-
-    ## Parsuje stronę podmiotu. Dostaje surowy tekst HTML, zwraca słownik
-    ## znalezionych w tabelach danych.
-    #def _parseEntitySite(self, text):
-    #    document = etree.fromstring(text, parser = self.parser)
-    #    print(document)
-    #    print(document.getchildren())
-
-    #    #tables = document.findall("./ns:html/ns:body/ns:div/ns:div[@id='gielda',@class='col2']/ns:div[@class='mpl_left']/ns:div[@class='660 box']/ns:div[@class='corner box sesja_big']/ns:div[@class='corner box sesja_big']/ns:div[@id='notowania_d']/ns:div[@class='wartosci']/ns:table[@class='tabela']", namespaces = self.xml_ns)
-    #    tables = document.findall(".//ns:body", namespaces = self.xml_ns)
-
-    #    print('Tabales: {}'.format(tables))
-    #    result = {}
-    #    for table in tables:
-    #        result.update(self._parseTable(table))
-    #    return result
-
-    #def parse_entity_site(self, address):
-    #    # Tak to wygląda testowo:
-    #    site = None
-    #    with codecs.open('./moneypl_entity_site', 'r', 'iso-8859-2') as src:
-    #        site = self.session.clean(src.read())
-    #        site = self.session.parse(site)
-
-    #    # Tak to powinno wyglądać:
-    #    #site = self.session.get_site(address)
-
-    #    print('Site: |{}|'.format(site))
-    #    elem = site.findall(".//div[@id='notowania_d']")
-    #    print('Elem: |{}|'.format(lxml.etree.tostring(elem[0])))
-
-
 # Przykład użycia klasy MoneyPL.
 def example():
     pass
@@ -287,7 +293,7 @@ def main():
 
     comps = money.get_companies_list()
 
-    comp = CompanySite(money.session, comps[26])
+    comp = CompanySite(money.session, comps[56])
 
     #print('Info children:')
     #print(comp.site_info.getchildren())
