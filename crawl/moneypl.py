@@ -43,13 +43,17 @@ class switch(object):
 
 class CompanySite(object):
 
-    path_section_anchors = ".//div[@class='taby taby3 bb1']/ul/li/span/a"
+    path_section_anchors= ".//div[@class='taby taby3 bb1']/ul/li/span/a"
 
     path_data_divs      = ".//div[@class='b660 box']"
     path_data_header    = "./div[@class='hd inbox']"
     path_data_table     = "./div/table[@class='tabela tlo_biel']"
     path_data_big_table = "./div/table[@class='tabela big tlo_biel']"
     path_data_big_tables= "./div/table[@class='tabela big tlo_biel ']"
+
+    path_finances_table = ".//div[@id='val_tab_Q_t']"
+    path_finances_ticker= "./body/div/div[@id='gielda']/div[@class='mpl_left']"\
+            "/div[@class='b660 box']/h1[@class='hd big inbox']/em"
 
 
     def __init__(self, session, address):
@@ -214,6 +218,87 @@ class CompanySite(object):
 
 
 
+    def parse_finance_table(self, table):
+        t_body = table.find( './tbody' )
+        if t_body is not None:
+            table = t_body
+
+        indexes = [
+                0,  # daty
+                1,  # przychód netto
+                4,  # zysk netto
+                5,  # przepływ netto
+                6,  # przepływ z dział. operacyjnej
+                7,  # przepływ z dział. inwestycyjnej
+                8,  # przepływ z dział. finansowej
+                9,  # aktywa
+                11, # zobowiązania długoterminowe
+                12] # zobowiązania krótkoterminowe
+
+        data = []
+        for idx in indexes:
+            textified_row = ( cell.text.strip() for cell in table[idx] )
+            data.append( textified_row )
+
+        return zip(*data)
+
+
+    
+    #def test_parse_finance_table(self):
+    #    table = None
+    #    with codecs.open('./cache/finance_table', 'r', 'utf8') as src:
+    #        table = lxml.html.fromstring(src.read())
+
+    #    print(u'Table: {}'.format(table))
+    #    print(u'Table children: {}'.format(table.getchildren()))
+
+    #    r = self.parse_finance_table( table )
+    #    for i in r:
+    #        print(i)
+
+
+    def parse_finance_ticker(self, site_finances):
+        ticker = site_finances.find( CompanySite.path_finances_ticker )
+
+        if ticker is None:
+            raise RuntimeError('Could not find \'ticker\' element on site {}.'
+                    .format(self.address))
+
+        return ticker.text.strip().strip('[]')
+
+
+
+    def get_finances(self):
+        if self.finances is not None:
+            return self.finances
+        self.finances = []
+
+        finances_table =\
+                self.site_finances.find( CompanySite.path_finances_table )
+
+        ticker = self.parse_finance_ticker(self.site_finances)
+        params = { 'ticker': ticker, 'p':'Q', 't':'t', 'o':0 }
+
+        table_el = finances_table[1]
+        next_el  = finances_table[2]
+        self.finances.extend( self.parse_finance_table(table_el) )
+
+
+        while 'off' not in next_el.get('class'):
+
+            params['o'] += 4
+            #print(u'Params: {}'.format(params))
+            finances_table = self.session.post_to_site(
+                    'http://www.money.pl/ajax/gielda/finanse/', params)
+
+            table_el = finances_table[1]
+            next_el  = finances_table[2]
+            #print(u'Rotor class: {}'.format(next_el.get('class')))
+
+            self.finances.extend( self.parse_finance_table(table_el) )
+
+        return self.finances
+
 
 
 
@@ -295,11 +380,10 @@ def main():
 
     comp = CompanySite(money.session, comps[56])
 
-    #print('Info children:')
-    #print(comp.site_info.getchildren())
-    #print('About children:')
-    #print(comp.site_about.getchildren())
     comp.get_details()
+    for f in comp.get_finances():
+        print(f)
+    #comp.test_parse_finance_table()
 
 
 if __name__ == '__main__':
