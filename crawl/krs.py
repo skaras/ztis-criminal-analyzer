@@ -3,12 +3,40 @@
 # coding=UTF8
 
 import requests, codecs, sys, re
+import pygeocoder
 
 from session    import Session
 
 
 
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+
+
+
+# http://code.activestate.com/recipes/410692/
+# This class provides the functionality we want. You only need to look at
+# this if you want to know how this works. It only needs to be defined
+# once, no need to muck around with its internals.
+class switch(object):
+    def __init__(self, value):
+        self.value = value
+        self.fall = False
+
+    def __iter__(self):
+        """Return the match method once, then stop"""
+        yield self.match
+        raise StopIteration
+    
+    def match(self, *args):
+        """Indicate whether or not to enter a case suite"""
+        if self.fall or not args:
+            return True
+        elif self.value in args: # changed for v1.5, see below
+            self.fall = True
+            return True
+        else:
+            return False
+
 
 
 
@@ -23,6 +51,7 @@ class KRS(object):
     def __init__(self):
         self.session = Session()
         self.stripper = re.compile(r'[\W+_]', re.UNICODE)
+        self.geocoder = pygeocoder.Geocoder()
 
 
 
@@ -33,8 +62,44 @@ class KRS(object):
         return self.stripper.sub('', text.lower())
 
     
+
     def _geocode_address(self, data):
-        pass
+        lat, lng = None, None
+        street, zip_code, city = None, None, None
+
+        for pair in data:
+            for case in switch(pair[0]):
+                if case('ulica'):
+                    street = pair[1]
+                    break
+                if case('kodpocztowy'):
+                    zip_code = pair[1]
+                    break
+                if case(u'miejscowość'):
+                    city = pair[1]
+                    break
+
+        # ulica, kod pocztowy miejscowość, Poland
+        address = u'{}, {} {}, Poland'.format(street, zip_code, city)
+
+        try:
+            results = self.geocoder.geocode( address )
+
+            if len(results) > 0:
+                lat, lng = results[0].coordinates
+
+                if len(results) > 1:
+                    print('Gecoding address {} gave more than on result, first '
+                            'one will be chosen.'.format(address))
+        except Exception as e:
+            print(u'Exception while geocoding: {}'.format(e.message))
+
+        if lat == 0 and lng == 0:
+            print('Could not geocode address {}!'.format(address))
+
+        data.append( (u'szer', lat) )
+        data.append( (u'dlug', lng) )
+
 
 
     #def _accept_table(self, table):
@@ -79,8 +144,6 @@ class KRS(object):
         entity_site = self.session.get_site(address)
         data_tables = entity_site.findall( KRS.path_data_table )
 
-        print('Found {} tables.'.format( len(data_tables) ))
-
         result = []
         for table in data_tables:
             parse_result = self._parse_table( table )
@@ -109,9 +172,6 @@ class KRS(object):
             params = {'p': 6, 'look': look_for})
 
         search_results = self._parse_search_results( search_results )
-
-        print('Search results:')
-        for r in search_results: print(r)
 
         if len(search_results) == 0:
             raise RuntimeError('Nothing found when searching in KRS for {}'
@@ -142,18 +202,26 @@ class KRS(object):
 def example():
     krs = KRS()
 
-    #tax_id = 7542527629
-    tax_id = 6290011681
+
+    #id_num = '0000018602' # numer spółki Żywiec
+    id_num = 6290011681   # NIP spółki ERG SA
+
 
     # Szukanie po NIP'ie (może też być numer KRS, jest w danych z money.pl)
-    entity_data = krs.search_for(tax_id)
+    entity_data = krs.search_for(id_num)
     
+
     # Jeżeli wyszukiwanie zwróci więcej niż jeden wynik, wypisze się ostrzeżenie
     # i sparsowany zostanie pierwszy z nich.
     # Jeżeli nic się nie znajdzie, poleci RuntimeError.
 
+    # Funkcje spóbuje też geo-zlokalizować adres wyciągnięty z danych, jeśli
+    # coś się nie uda - wypisze ostrzeżenie (wraz z adresem), jeśli wszystko
+    # poszło bez problemów, w danych będą krotki ('szer', X), ('dlug', Y).
+
+
     # Zrób sobie coś z danymi.
-    print('Dane podmiotu o NIP\'ie {}:'.format(tax_id))
+    print('Dane podmiotu o numerze {}:'.format(id_num))
     for element in entity_data:
         print(element)
 
