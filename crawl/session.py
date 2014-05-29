@@ -11,7 +11,7 @@ from lxml.html.clean    import Cleaner
 
 class Session(object):
 
-    def __init__(self, encoding = None):
+    def __init__(self, encoding = 'utf8'):
         # Obiekt Session, używany przy kolejnych zapytaniach. Potrzebny, żeby
         # raz ustawić nagłówki i nie przekazywać ich do każdego zapytania
         # osobno.
@@ -50,8 +50,7 @@ class Session(object):
 
 
     def get(self, address, params = {}):
-        # FIXME czy na pewno takie rozłożenie słownika zadziała?
-        response = self.session.get(address, **params)
+        response = self.session.get(address, params = params)
         response.raise_for_status()
 
         return response.text
