@@ -14,7 +14,7 @@ sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
 def import_all(database):
     #database.destroy()
-    #database.create()
+    database.create()
     #database.clear()
     
     sess = database.get_session()
@@ -45,8 +45,13 @@ def import_all(database):
         
         print krs_id
         
-        if krs_id > 0:
+        if krs_id == 0:
+        
+        try:
             krs_details = krs.search_for(krs_id)
+        except:
+            print 'No KRS data for company REGON', regon_id
+            continue
         
         krs_data = dict((x.lower(), y) for x, y in krs_details)
         
