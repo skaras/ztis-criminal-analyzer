@@ -113,7 +113,7 @@ class CompanySite(object):
         for row in table_elem:
             row_data = []
             for cell in row:
-                text = lxml.etree.tostring(cell, encoding='utf8', method='text') 
+                text = lxml.etree.tostring(cell, encoding=unicode, method='text') 
                 row_data.append( text.strip() )
             data.append( row_data )
         return data
@@ -223,6 +223,11 @@ class CompanySite(object):
 
 
     def parse_finance_table(self, table):
+      
+        #print('parse_finance_table():')
+        #print(u'|{}|'.format(lxml.etree.tostring(table, encoding=unicode, method='text').strip() ))
+        #print('##############################################')
+        
         t_body = table.find( './tbody' )
         if t_body is not None:
             table = t_body
@@ -271,17 +276,48 @@ class CompanySite(object):
         return ticker.text.strip().strip('[]')
 
 
+    def find_finance_table(self):
+
+        path_t = ".//div[@id='val_tab_Q_t']"
+        path_f = ".//div[@id='val_tab_Q_f']"
+
+        finances_table =\
+                self.site_finances.find( path_t )
+
+        if finances_table is not None:
+            table_el = finances_table[1]
+            table_el = lxml.etree.tostring(table_el, encoding=unicode, method='text').strip()
+
+            if not table_el == '':
+                return finances_table, 't'
+        #    else:
+        #        print('t table found empty.')
+        #else:
+        #    print('finances_table not found')
+
+        #print('Returning f')
+
+        finances_table = self.site_finances.find( path_f )
+        return finances_table, 'f'
+
+        #tab_text = lxml.etree.tostring(
+        #        finances_table, encoding=unicode, method='text').strip() 
+        #print('tab_text:')
+        #print(type(tab_text))
+        #print(len(tab_text))
+        #print(u'|{}|'.format(unicode(tab_text)))
+
+
 
     def get_finances(self):
         if self.finances is not None:
             return self.finances
         self.finances = []
 
-        finances_table =\
-                self.site_finances.find( CompanySite.path_finances_table )
-
+        finances_table, tab_type = self.find_finance_table()
+	      
         ticker = self.parse_finance_ticker(self.site_finances)
-        params = { 'ticker': ticker, 'p':'Q', 't':'t', 'o':0 }
+        params = { 'ticker': ticker, 'p':'Q', 't':tab_type, 'o':0 }
 
         table_el = finances_table[1]
         next_el  = finances_table[2]
@@ -402,7 +438,33 @@ def example():
 
         break # inaczej pętla będzie leciała dość długo...
 
+def example2():
+    money = MoneyPL()
+    i = 0
+    for company in money.get_companies():
+        # company to obiekt CompanySite
+        i += 1
 
+        if i < 9:
+            continue
+
+        details, employment, board = company.get_details()
+
+        print('Details:')
+        for info in details: print(info)
+
+        print('Employment:')
+        for info in employment: print(info)
+
+        print('Board:')
+        for info in board: print(info)
+
+
+        finances = company.get_finances()
+        print(u'Finances:')
+        for info in finances: print(info)
+
+        break
 
 def main():
     money = MoneyPL()
@@ -419,5 +481,5 @@ def main():
 
 if __name__ == '__main__':
     #main()
-    example()
+    example2()
 
