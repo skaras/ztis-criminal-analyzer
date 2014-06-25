@@ -25,13 +25,7 @@ def import_all(database):
     money = MoneyPL()
     krs = KRS()
     
-    i = 0
-    
     for company in money.get_companies():
-        
-        if i < cnt:
-            i += 1
-            continue
         
         krs_data = None
         
@@ -43,9 +37,12 @@ def import_all(database):
         krs_id = company_data.get('krs', 0)
         regon_id = company_data.get('regon', 0)
         
-        print krs_id
+        if sess.query(Company.regon) \
+            .filter(Company.regon == int(regon_id)).count() > 0:
+            print 'Company with REGON', regon_id, 'already exists'
+            continue
         
-        if krs_id == 0:
+        print krs_id
         
         try:
             krs_details = krs.search_for(krs_id)
