@@ -38,7 +38,7 @@ def import_all(database):
         regon_id = company_data.get('regon', 0)
         
         if sess.query(Company.regon) \
-            .filter(Company.regon == int(regon_id)).count() > 0:
+            .filter(Company.regon == to_int(regon_id)).count() > 0:
             print 'Company with REGON', regon_id, 'already exists'
             continue
         

@@ -369,7 +369,7 @@ class MoneyPL(object):
 
 
     def get_sectors_list(self):
-        cache_file = dirname(abspath(__file__)) + './cache/sectors_list'
+        cache_file = os.path.join( dirname(abspath(__file__)) , './cache/sectors_list')
         if self.cache_exists(cache_file):
             return self.cache_read(cache_file)
 
@@ -388,7 +388,7 @@ class MoneyPL(object):
 
         
     def get_companies_list(self):
-        cache_file = dirname(abspath(__file__)) + './cache/companies_list'
+        cache_file = os.path.join( dirname(abspath(__file__)), './cache/companies_list')
         if self.cache_exists(cache_file):
             return self.cache_read(cache_file)
 
