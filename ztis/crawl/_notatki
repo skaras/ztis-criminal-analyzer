@@ -1,0 +1,20 @@
+
+##########################
+KRS
+
+wyszukiwarka:
+http://www.krs-online.com.pl/?p=6&look=<NIP>
+
+<div id="main"> # główna, środkowa część strony
+    <p>         # po jednym akapicie na każdy link
+        <a href=<adres> > # adres do strony z wynikami
+        
+
+strona podmiotu:
+<body>
+    <div id="all">
+        <div id="main">
+            <table class="tab1">
+                <tbody>
+                    <tr>... <td> <td>
+                    <tr>... <th> <td>
