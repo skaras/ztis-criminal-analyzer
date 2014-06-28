@@ -2,6 +2,8 @@
 # -*- coding: utf8 -*-
 # coding=UTF8
 
+import time
+
 from ztis.database.database import *
 from ztis.database.model import *
 from ztis.crawl.moneypl import *
@@ -25,7 +27,13 @@ def import_all(database):
     money = MoneyPL()
     krs = KRS()
     
+    i = 0
+    
     for company in money.get_companies():
+        
+        i += 1
+        
+        print i
         
         krs_data = None
         
@@ -43,6 +51,8 @@ def import_all(database):
             continue
         
         print krs_id
+        
+        time.sleep(15)
         
         try:
             krs_details = krs.search_for(krs_id)
@@ -69,6 +79,7 @@ def import_all(database):
         for info in finances:
             finance_obj = Finance.create(regon_id, info)
             database.save(finance_obj)
+            
             
         
 
