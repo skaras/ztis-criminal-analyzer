@@ -19,6 +19,8 @@ class Database:
         self.session = sessionmaker(bind=self.engine)
         self.session.configure(bind=self.engine)
         self.session_instance = self.session()
+        
+        self.create()
     
     
     def create(self):
@@ -38,9 +40,14 @@ class Database:
         Base.metadata.drop_all(self.engine)
     
     
+    def get_all(self, obj_type):
+        return self.session_instance.query(obj_type).all()
+    
+    
     def save(self, obj):
         self.session_instance.add(obj)
         self.session_instance.commit()
+    
     
     def save_all(self, obj_list):
         self.session_instance.add_all(obj_list)
@@ -49,9 +56,3 @@ class Database:
     
     def get_session(self):
         return self.session_instance
-
-"""
-database = Database()
-database.create()
-database.destroy()
-"""

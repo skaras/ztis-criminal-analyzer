@@ -16,7 +16,7 @@ sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
 def import_all(database):
     #database.destroy()
-    database.create()
+    #database.create()
     #database.clear()
     
     sess = database.get_session()
@@ -31,8 +31,6 @@ def import_all(database):
     
     for company in money.get_companies():
         
-        i += 1
-        
         print i
         
         krs_data = None
@@ -44,7 +42,7 @@ def import_all(database):
         
         krs_id = company_data.get('krs', 0)
         regon_id = company_data.get('regon', 0)
-        
+        break
         if sess.query(Company.regon) \
             .filter(Company.regon == to_int(regon_id)).count() > 0:
             print 'Company with REGON', regon_id, 'already exists'
@@ -67,6 +65,8 @@ def import_all(database):
         company_obj = Company.create(all_data)
         database.save(company_obj)
         
+        i += 1
+        
         for info in employment:
             employment_obj = Employment.create(regon_id, info)
             database.save(employment_obj)
@@ -80,9 +80,11 @@ def import_all(database):
             finance_obj = Finance.create(regon_id, info)
             database.save(finance_obj)
             
-            
+        break
         
+    return i
 
-database = Database()
 
-import_all(database)
+#database = Database()
+
+#import_all(database)

@@ -74,7 +74,7 @@ class Company(Base):
         
     
     def __repr__(self):
-        return str(self.regon + " " + self.name)
+        return str(str(self.regon) + " " + self.name)
     
     
     @staticmethod
@@ -172,7 +172,7 @@ class Employment(Base):
         self.people_count = people_count
     
     def __repr__(self):
-        return str(self.regon + " " + self.year)
+        return str(str(self.regon) + " " + str(self.year))
     
     
     @staticmethod
@@ -235,7 +235,7 @@ class Finance(Base):
     
     
     def __repr__(self):
-        return str(self.regon + " " + self.date)
+        return str(str(self.regon) + " " + str(self.date))
     
     
     @staticmethod
