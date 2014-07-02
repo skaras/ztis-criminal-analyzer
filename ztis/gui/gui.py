@@ -146,7 +146,13 @@ class MainFrame ( wx.Frame ):
             dlg.Destroy()
             return
         
-        self.exporter.export(companies, "alamakota.xml")
+        saveFileDialog = wx.FileDialog(self, "Zapisz plik XML", "Eksportuj", "",
+                                       "Plik XML (*.xml)|*.xml", wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
+        
+        if saveFileDialog.ShowModal() == wx.ID_CANCEL:
+            return
+        
+        self.exporter.export(companies, saveFileDialog.GetPath())
         
         dlg = wx.MessageDialog(self, u"Eksportowanie zakończone", u"Eksport", wx.OK | wx.ICON_INFORMATION)
         dlg.ShowModal()
